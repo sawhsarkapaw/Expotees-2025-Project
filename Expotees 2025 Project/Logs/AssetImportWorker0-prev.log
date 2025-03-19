@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49703
+50197
 -job-worker-count
 4
 -background-job-worker-count
@@ -68,7 +68,7 @@ Successfully changed project path to: /Users/kapaw/Desktop/Expotees-2025-Project
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8610515008]  Target information:
 
-Player connection [8610515008]  * "[IP] 10.96.65.81 [Port] 0 [Flags] 2 [Guid] 754612315 [EditorId] 754612315 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8610515008]  * "[IP] 10.96.65.81 [Port] 0 [Flags] 2 [Guid] 3396210720 [EditorId] 3396210720 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8610515008] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8610515008] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -82,8 +82,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 12.66 ms, found 12 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 22.66 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 2.63 ms.
 Initialize engine version: 6000.0.33f1 (433b0a79340b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Assets
@@ -93,144 +93,54 @@ Metal devices available: 1
 0: Apple M1 Pro (high power)
 Using device Apple M1 Pro (high power)
 Initializing Metal device caps: Apple M1 Pro
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56689
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002689 seconds.
-- Loaded All Assemblies, in  0.290 seconds
+Registered in 0.001180 seconds.
+- Loaded All Assemblies, in  0.308 seconds
 Native extension for Android target not found
-Unable to list connected devices. 
-* daemon not running; starting now at tcp:5037
-ADB server didn't ACK
-Full server startup log: /var/folders/vd/h56pv79j7xgf_8sxhczbrv100000gn/T//adb.501.log
-Server had pid: 41126
---- adb starting (pid 41126) ---
---- adb starting (pid 41127) ---
-03-19 16:51:48.993 41127 5526089 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-03-19 16:51:48.993 41127 5526089 I adb     : main.cpp:63 Version 34.0.5-10900879
-03-19 16:51:48.993 41127 5526089 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-03-19 16:51:48.993 41127 5526089 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-03-19 16:51:48.993 41127 5526089 I adb     : main.cpp:63 
-03-19 16:51:48.993 41126 5526090 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-03-19 16:51:48.993 41126 5526090 I adb     : main.cpp:63 Version 34.0.5-10900879
-03-19 16:51:48.993 41126 5526090 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-03-19 16:51:48.993 41126 5526090 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-03-19 16:51:48.993 41126 5526090 I adb     : main.cpp:63 
-03-19 16:51:48.996 41127 5526089 I adb     : auth.cpp:416 adb_auth_init...
-03-19 16:51:48.998 41127 5526089 I adb     : auth.cpp:152 loaded new key from '/Users/kapaw/.android/adbkey' with fingerprint 5AD1CDF18774BA58980B06A343ECC18E140F753118DDCDBFF21E5C961500DDD8
-03-19 16:51:49.512 41126 5526090 F adb     : main.cpp:165 could not install *smartsocket* listener: Address already in use
-
-* failed to start daemon
-adb: failed to check server version: cannot connect to daemon
-
-UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
-/Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
-
-Environment Variables:
-XPC_SERVICE_NAME = application.com.unity3d.unityhub.121842735.121842741
-XPC_FLAGS = 0x0
-MallocNanoZone = 0
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-SHELL = /bin/zsh
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.LE50rQFfhW/Listeners
-HOME = /Users/kapaw
-PATH = /usr/bin:/bin:/usr/sbin:/sbin
-__CFBundleIdentifier = com.unity3d.unityhub
-USER = kapaw
-__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
-TMPDIR = /var/folders/vd/h56pv79j7xgf_8sxhczbrv100000gn/T/
-LOGNAME = kapaw
-COMMAND_MODE = unix2003
-
-
-stderr[
-* daemon not running; starting now at tcp:5037
-ADB server didn't ACK
-Full server startup log: /var/folders/vd/h56pv79j7xgf_8sxhczbrv100000gn/T//adb.501.log
-Server had pid: 41126
---- adb starting (pid 41126) ---
---- adb starting (pid 41127) ---
-03-19 16:51:48.993 41127 5526089 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-03-19 16:51:48.993 41127 5526089 I adb     : main.cpp:63 Version 34.0.5-10900879
-03-19 16:51:48.993 41127 5526089 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-03-19 16:51:48.993 41127 5526089 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-03-19 16:51:48.993 41127 5526089 I adb     : main.cpp:63 
-03-19 16:51:48.993 41126 5526090 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-03-19 16:51:48.993 41126 5526090 I adb     : main.cpp:63 Version 34.0.5-10900879
-03-19 16:51:48.993 41126 5526090 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-03-19 16:51:48.993 41126 5526090 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-03-19 16:51:48.993 41126 5526090 I adb     : main.cpp:63 
-03-19 16:51:48.996 41127 5526089 I adb     : auth.cpp:416 adb_auth_init...
-03-19 16:51:48.998 41127 5526089 I adb     : auth.cpp:152 loaded new key from '/Users/kapaw/.android/adbkey' with fingerprint 5AD1CDF18774BA58980B06A343ECC18E140F753118DDCDBFF21E5C961500DDD8
-03-19 16:51:49.512 41126 5526090 F adb     : main.cpp:165 could not install *smartsocket* listener: Address already in use
-
-* failed to start daemon
-adb: failed to check server version: cannot connect to daemon
-]
-stdout[
-
-]
-exit code: 1
-  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00017] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg, System.Text.Encoding inputEncoding) [0x0000c] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x002ae] in <96672911ce664afea25a63cd59e554c0>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
-UnityEditor.Android.TargetScanWorker:ScanSync ()
-UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
-UnityEditor.Android.TargetExtension:OnLoad ()
-UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs:126)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs Line: 126)
-
-Android Extension - Scanning For ADB Devices 715 ms
+Android Extension - Scanning For ADB Devices 3097 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.972 seconds
-Domain Reload Profiling: 1262ms
-	BeginReloadAssembly (87ms)
+- Finished resetting the current domain, in  3.376 seconds
+Domain Reload Profiling: 3685ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (30ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (33ms)
+	initialDomainReloadingComplete (32ms)
 	LoadAllAssembliesAndSetupDomain (130ms)
-		LoadAssemblies (88ms)
+		LoadAssemblies (108ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (127ms)
-			TypeCache.Refresh (126ms)
+			TypeCache.Refresh (125ms)
 				TypeCache.ScanAssembly (114ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (973ms)
+	FinalizeReload (3377ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (939ms)
+		SetupLoadedEditorAssemblies (3334ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (777ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (3163ms)
+			SetLoadedEditorAssemblies (2ms)
 			BeforeProcessingInitializeOnLoad (34ms)
-			ProcessInitializeOnLoadAttributes (82ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -239,10 +149,16 @@ Domain Reload Profiling: 1262ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.565 seconds
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.595 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.44 ms, found 12 plugins.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.52 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -253,6 +169,15 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 3.75 ms, found 18 plugins.
+19/03 17:11:25.862 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+19/03 17:11:25.862 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:46 
   at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:67 
@@ -281,495 +206,144 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.657 seconds
-Domain Reload Profiling: 1215ms
-	BeginReloadAssembly (93ms)
+- Finished resetting the current domain, in  0.892 seconds
+Domain Reload Profiling: 1486ms
+	BeginReloadAssembly (90ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (28ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (403ms)
-		LoadAssemblies (230ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (440ms)
+		LoadAssemblies (196ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (214ms)
-			TypeCache.Refresh (161ms)
-				TypeCache.ScanAssembly (144ms)
-			BuildScriptInfoCaches (41ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (657ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (183ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (892ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (559ms)
+		SetupLoadedEditorAssemblies (784ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (372ms)
-			ProcessInitializeOnLoadMethodAttributes (108ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (557ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+[OVRPlugin][INFO] UnityPluginLoad called
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.59 ms, found 12 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 208 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5762 unused Assets / (7.3 MB). Loaded Objects now: 6468.
-Memory consumption went from 155.7 MB to 148.4 MB.
-Total: 8.540250 ms (FindLiveObjects: 0.482042 ms CreateObjectMapping: 0.143041 ms MarkObjects: 4.475709 ms  DeleteObjects: 3.438541 ms)
+Refreshing native plugins compatible for Editor in 3.71 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
+Unloading 307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8308 unused Assets / (8.1 MB). Loaded Objects now: 9087.
+Memory consumption went from 210.5 MB to 202.4 MB.
+Total: 11.184542 ms (FindLiveObjects: 0.832375 ms CreateObjectMapping: 0.248917 ms MarkObjects: 7.003208 ms  DeleteObjects: 3.099417 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 125055.830963 seconds.
-  path: Assets/Kapaw/Prefabs
-  artifactKey: Guid(f087db2099cdb4ca2a4b0b8aaccf9e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Prefabs using Guid(f087db2099cdb4ca2a4b0b8aaccf9e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7113e826b5aa7df65acd5d4b5178f145') in 0.003436167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 127611.507673 seconds.
+  path: Assets/Assets/Characters/FBX format/aid-cane.fbx
+  artifactKey: Guid(e1f864162804044e7933a5f33fde4b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/FBX format/aid-cane.fbx using Guid(e1f864162804044e7933a5f33fde4b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08e799274d9fc30cb60716c896368fd5') in 0.511944916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.268261 seconds.
-  path: Assets/Kapaw
-  artifactKey: Guid(4e6e00c5fe21e45928d1d000cb7b4b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw using Guid(4e6e00c5fe21e45928d1d000cb7b4b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd50f770d4b2fbf467e4c342bd16e5b86') in 0.000345958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/Characters/FBX format/character-female-c.fbx
+  artifactKey: Guid(4ecd410a6f5b74318b8a45a29b7c11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/FBX format/character-female-c.fbx using Guid(4ecd410a6f5b74318b8a45a29b7c11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9d997c7f84162b2a3d2a6e93c0844c4') in 0.083303875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.517342 seconds.
-  path: Assets/Kapaw/Scene
-  artifactKey: Guid(c2e72236f595b462c94f6a1635c7fec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Scene using Guid(c2e72236f595b462c94f6a1635c7fec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b7006973a3ef99f73b1b49251f73c7f') in 0.000377292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000079 seconds.
+  path: Assets/Assets/Characters/FBX format/character-female-a.fbx
+  artifactKey: Guid(de75a74dabad040d88735d5292647a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/FBX format/character-female-a.fbx using Guid(de75a74dabad040d88735d5292647a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a92ab8b5ed69d251fc18d9e958c83f9') in 0.0250785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.763464 seconds.
-  path: Assets/Kapaw/Scene/Kapaw_Sandbox.unity
-  artifactKey: Guid(533e95b8f08eb4e9bb42c6fa12c06f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Scene/Kapaw_Sandbox.unity using Guid(533e95b8f08eb4e9bb42c6fa12c06f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebd64b9a73e25101f32663863f8305c5') in 0.000490958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000063 seconds.
+  path: Assets/Assets/Characters/FBX format/aid-crutch.fbx
+  artifactKey: Guid(b6f09a593edbb47f7968500474598052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/FBX format/aid-crutch.fbx using Guid(b6f09a593edbb47f7968500474598052) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24c46e2421e696465d9a9c88aa10bf89') in 0.016962375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
-  Time since last request: 144.750729 seconds.
-  path: Assets/Kapaw/Prefabs/Character.prefab
-  artifactKey: Guid(f2cb9b7b54bfc47c098961670adcba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Prefabs/Character.prefab using Guid(f2cb9b7b54bfc47c098961670adcba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b10da00149f855c05cec4052f7e5fb43') in 0.290175916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+  Time since last request: 0.000058 seconds.
+  path: Assets/Assets/Characters/FBX format/aid-defibrillator-red.fbx
+  artifactKey: Guid(ef549980208b146c5a0b8babd6475e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/FBX format/aid-defibrillator-red.fbx using Guid(ef549980208b146c5a0b8babd6475e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cd24102a979804f70bb73f8b16ff268') in 0.018068458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
-Received Prepare
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 5fab0d74d4d31754180a351f20d1dd72
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets/Characters/FBX format/character-male-e.fbx
+  artifactKey: Guid(225b760cff83944cfb95af1aad35dd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/FBX format/character-male-e.fbx using Guid(225b760cff83944cfb95af1aad35dd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76bbf8b321f1129e285cbb4d46811a18') in 0.028258209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
 
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
-
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 5fab0d74d4d31754180a351f20d1dd72
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
-
-Begin MonoManager ReloadAssembly
-Thread 0x17f753000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.615 seconds
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 5fab0d74d4d31754180a351f20d1dd72
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
-
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.94 ms, found 12 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 5fab0d74d4d31754180a351f20d1dd72
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
-
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:46 
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:67 
-  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs:34 
-   --- End of inner exception stack trace ---
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.712 seconds
-Domain Reload Profiling: 1328ms
-	BeginReloadAssembly (196ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (361ms)
-		LoadAssemblies (224ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (184ms)
-			TypeCache.Refresh (35ms)
-				TypeCache.ScanAssembly (22ms)
-			BuildScriptInfoCaches (132ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (712ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (540ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (397ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.55 ms, found 12 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5816 unused Assets / (8.3 MB). Loaded Objects now: 6567.
-Memory consumption went from 204.6 MB to 196.3 MB.
-Total: 9.264000 ms (FindLiveObjects: 0.356125 ms CreateObjectMapping: 0.190916 ms MarkObjects: 4.432750 ms  DeleteObjects: 4.283542 ms)
-
-Prepare: number of updated asset objects reloaded= 1
 ========================================================================
-Received Prepare
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 3e5ecfe2afaeb46a6bf39845165b9b6a
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Assets/Characters/FBX format/character-male-d.fbx
+  artifactKey: Guid(ce5b1144805b248ac9d83c18257cd9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/FBX format/character-male-d.fbx using Guid(ce5b1144805b248ac9d83c18257cd9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1edf9b4211bf4d9050bdc8d5aafa937c') in 0.026684833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
 
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Assets/Characters/FBX format/character-male-c.fbx
+  artifactKey: Guid(a0e82d7ef88184076bda51f22eeeaa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/FBX format/character-male-c.fbx using Guid(a0e82d7ef88184076bda51f22eeeaa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ed8dcebc760f42731b5e17a5a450c41') in 0.024111875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
 
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 3e5ecfe2afaeb46a6bf39845165b9b6a
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/Characters/FBX format/aid-defibrillator-green.fbx
+  artifactKey: Guid(4bbd2cde1146f41a496974d871dd599b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/FBX format/aid-defibrillator-green.fbx using Guid(4bbd2cde1146f41a496974d871dd599b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cc38f5539c556ae2caa2ec35e4029e4') in 0.017048958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Assets/Characters/FBX format/aid-glasses.fbx
+  artifactKey: Guid(3dc8ed18c07ec4153bf06be2e99f4b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/FBX format/aid-glasses.fbx using Guid(3dc8ed18c07ec4153bf06be2e99f4b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61ca843966d12642964ff59766f70e83') in 0.028378792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
-Begin MonoManager ReloadAssembly
-Thread 0x16e04f000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.889 seconds
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 3e5ecfe2afaeb46a6bf39845165b9b6a
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/Characters/FBX format/wheelchair-power.fbx
+  artifactKey: Guid(2a9d84964fa2f49e49228f0593f589ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/FBX format/wheelchair-power.fbx using Guid(2a9d84964fa2f49e49228f0593f589ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3a7ab1ae95a6b06a1f488d88d2d2ecf') in 0.0120445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Assets/Characters/FBX format/aid-mask.fbx
+  artifactKey: Guid(8642e34be53d14bea8f973e9b85c2d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/FBX format/aid-mask.fbx using Guid(8642e34be53d14bea8f973e9b85c2d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9db0701be8cd7af0cdca7151eaf0af86') in 0.011397125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
-Script 'CharacterController' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 9.95 ms, found 18 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
-Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
-ArgumentException: An item with the same key has already been added. Key: 3e5ecfe2afaeb46a6bf39845165b9b6a
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
-  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
-  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
-
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 4.15 ms, found 18 plugins.
-19/03 17:09:01.558 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:46 
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:67 
-  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs:34 
-   --- End of inner exception stack trace ---
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.021 seconds
-Domain Reload Profiling: 1910ms
-	BeginReloadAssembly (213ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (77ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (615ms)
-		LoadAssemblies (375ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (313ms)
-			TypeCache.Refresh (155ms)
-				TypeCache.ScanAssembly (132ms)
-			BuildScriptInfoCaches (135ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (1022ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (836ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (643ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'URP/UI/Prerendered Opaque': fallback shader 'UI/Prerendered Opaque' not found
-Shader 'URP/UI/Prerendered': fallback shader 'UI/Prerendered' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 5.17 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 293.62 ms.
-Unloading 142 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8403 unused Assets / (24.2 MB). Loaded Objects now: 9019.
-Memory consumption went from 252.9 MB to 228.8 MB.
-Total: 19.047125 ms (FindLiveObjects: 1.019958 ms CreateObjectMapping: 0.282375 ms MarkObjects: 9.319458 ms  DeleteObjects: 8.424583 ms)
-
-Prepare: number of updated asset objects reloaded= 79
