@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61648
+49703
 -job-worker-count
 4
 -background-job-worker-count
@@ -68,7 +68,7 @@ Successfully changed project path to: /Users/kapaw/Desktop/Expotees-2025-Project
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8610515008]  Target information:
 
-Player connection [8610515008]  * "[IP] 10.96.2.235 [Port] 0 [Flags] 2 [Guid] 2361971528 [EditorId] 2361971528 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8610515008]  * "[IP] 10.96.65.81 [Port] 0 [Flags] 2 [Guid] 1784307745 [EditorId] 1784307745 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8610515008] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8610515008] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -82,7 +82,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 20.95 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 13.35 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.33f1 (433b0a79340b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -97,114 +97,22 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56070
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56122
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.005746 seconds.
-- Loaded All Assemblies, in  0.287 seconds
+Registered in 0.004087 seconds.
+- Loaded All Assemblies, in  0.289 seconds
 Native extension for Android target not found
-Unable to list connected devices. 
-* daemon not running; starting now at tcp:5037
-ADB server didn't ACK
-Full server startup log: /var/folders/vd/h56pv79j7xgf_8sxhczbrv100000gn/T//adb.501.log
-Server had pid: 20075
---- adb starting (pid 20075) ---
---- adb starting (pid 20074) ---
-03-18 18:05:29.847 20074 2715508 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-03-18 18:05:29.847 20074 2715508 I adb     : main.cpp:63 Version 34.0.5-10900879
-03-18 18:05:29.847 20074 2715508 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-03-18 18:05:29.847 20074 2715508 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-03-18 18:05:29.847 20074 2715508 I adb     : main.cpp:63 
-03-18 18:05:29.847 20075 2715507 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-03-18 18:05:29.847 20075 2715507 I adb     : main.cpp:63 Version 34.0.5-10900879
-03-18 18:05:29.847 20075 2715507 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-03-18 18:05:29.847 20075 2715507 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-03-18 18:05:29.847 20075 2715507 I adb     : main.cpp:63 
-03-18 18:05:29.850 20074 2715508 I adb     : auth.cpp:416 adb_auth_init...
-03-18 18:05:29.852 20074 2715508 I adb     : auth.cpp:152 loaded new key from '/Users/kapaw/.android/adbkey' with fingerprint 5AD1CDF18774BA58980B06A343ECC18E140F753118DDCDBFF21E5C961500DDD8
-03-18 18:05:30.373 20075 2715507 F adb     : main.cpp:165 could not install *smartsocket* listener: Address already in use
-
-* failed to start daemon
-adb: failed to check server version: cannot connect to daemon
-
-UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
-/Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
-
-Environment Variables:
-XPC_SERVICE_NAME = application.com.unity3d.unityhub.121842735.121842741
-XPC_FLAGS = 0x0
-MallocNanoZone = 0
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-SHELL = /bin/zsh
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.LE50rQFfhW/Listeners
-HOME = /Users/kapaw
-PATH = /usr/bin:/bin:/usr/sbin:/sbin
-__CFBundleIdentifier = com.unity3d.unityhub
-USER = kapaw
-__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
-TMPDIR = /var/folders/vd/h56pv79j7xgf_8sxhczbrv100000gn/T/
-LOGNAME = kapaw
-COMMAND_MODE = unix2003
-
-
-stderr[
-* daemon not running; starting now at tcp:5037
-ADB server didn't ACK
-Full server startup log: /var/folders/vd/h56pv79j7xgf_8sxhczbrv100000gn/T//adb.501.log
-Server had pid: 20075
---- adb starting (pid 20075) ---
---- adb starting (pid 20074) ---
-03-18 18:05:29.847 20074 2715508 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-03-18 18:05:29.847 20074 2715508 I adb     : main.cpp:63 Version 34.0.5-10900879
-03-18 18:05:29.847 20074 2715508 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-03-18 18:05:29.847 20074 2715508 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-03-18 18:05:29.847 20074 2715508 I adb     : main.cpp:63 
-03-18 18:05:29.847 20075 2715507 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-03-18 18:05:29.847 20075 2715507 I adb     : main.cpp:63 Version 34.0.5-10900879
-03-18 18:05:29.847 20075 2715507 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-03-18 18:05:29.847 20075 2715507 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-03-18 18:05:29.847 20075 2715507 I adb     : main.cpp:63 
-03-18 18:05:29.850 20074 2715508 I adb     : auth.cpp:416 adb_auth_init...
-03-18 18:05:29.852 20074 2715508 I adb     : auth.cpp:152 loaded new key from '/Users/kapaw/.android/adbkey' with fingerprint 5AD1CDF18774BA58980B06A343ECC18E140F753118DDCDBFF21E5C961500DDD8
-03-18 18:05:30.373 20075 2715507 F adb     : main.cpp:165 could not install *smartsocket* listener: Address already in use
-
-* failed to start daemon
-adb: failed to check server version: cannot connect to daemon
-]
-stdout[
-
-]
-exit code: 1
-  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00017] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg, System.Text.Encoding inputEncoding) [0x0000c] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x002ae] in <96672911ce664afea25a63cd59e554c0>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
-UnityEditor.Android.TargetScanWorker:ScanSync ()
-UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
-UnityEditor.Android.TargetExtension:OnLoad ()
-UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs:126)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs Line: 126)
-
-Android Extension - Scanning For ADB Devices 734 ms
+Android Extension - Scanning For ADB Devices 3097 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.001 seconds
-Domain Reload Profiling: 1288ms
-	BeginReloadAssembly (86ms)
+- Finished resetting the current domain, in  3.352 seconds
+Domain Reload Profiling: 3641ms
+	BeginReloadAssembly (87ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -212,25 +120,25 @@ Domain Reload Profiling: 1288ms
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (125ms)
-		LoadAssemblies (86ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (87ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (121ms)
-				TypeCache.ScanAssembly (109ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (112ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1001ms)
+	FinalizeReload (3352ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (964ms)
+		SetupLoadedEditorAssemblies (3317ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (797ms)
+			InitializePlatformSupportModulesInManaged (3160ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (34ms)
-			ProcessInitializeOnLoadAttributes (86ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -239,10 +147,10 @@ Domain Reload Profiling: 1288ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.557 seconds
+- Loaded All Assemblies, in  0.475 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.79 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 2.85 ms, found 12 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -281,725 +189,456 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.645 seconds
-Domain Reload Profiling: 1194ms
-	BeginReloadAssembly (90ms)
+- Finished resetting the current domain, in  0.601 seconds
+Domain Reload Profiling: 1076ms
+	BeginReloadAssembly (87ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (27ms)
 	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (399ms)
-		LoadAssemblies (228ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (161ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (210ms)
-			TypeCache.Refresh (159ms)
-				TypeCache.ScanAssembly (142ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (646ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (137ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (601ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (547ms)
+		SetupLoadedEditorAssemblies (508ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (2ms)
 			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (360ms)
-			ProcessInitializeOnLoadMethodAttributes (111ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.67 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 2.42 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 208 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5762 unused Assets / (7.4 MB). Loaded Objects now: 6468.
-Memory consumption went from 155.8 MB to 148.4 MB.
-Total: 8.272542 ms (FindLiveObjects: 0.599334 ms CreateObjectMapping: 0.154250 ms MarkObjects: 4.510917 ms  DeleteObjects: 3.007333 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 71512.574317 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-large-slope.fbx
-  artifactKey: Guid(e67b6496ef1a442c1ad3a1f2c9b777d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-large-slope.fbx using Guid(e67b6496ef1a442c1ad3a1f2c9b777d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2024114667e3962a6ad1f4d30734d396') in 0.302459083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-large-slope.fbx
-  artifactKey: Guid(39b8108469011438a85b79e22b65194f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-large-slope.fbx using Guid(39b8108469011438a85b79e22b65194f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7635c8bab0c8e3c61fefa543c56d802d') in 0.010861834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-low-narrow.fbx
-  artifactKey: Guid(a17f3c09332bf40a281939e340365354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-low-narrow.fbx using Guid(a17f3c09332bf40a281939e340365354) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '035d84488d2354e7a95da6ef1011df71') in 0.010329542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-large-tall.fbx
-  artifactKey: Guid(ce7c60fc02bfb468d80accf975ece295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-large-tall.fbx using Guid(ce7c60fc02bfb468d80accf975ece295) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ec05f3328bcc9fad11c5055949fc26e') in 0.010067041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-narrow.fbx
-  artifactKey: Guid(07002370bbf814b39871388054a9997a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-narrow.fbx using Guid(07002370bbf814b39871388054a9997a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1938734ffccf379da9b27db4203854e6') in 0.009994083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-large.fbx
-  artifactKey: Guid(238a16767e14446e180d46f7de6a1701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-large.fbx using Guid(238a16767e14446e180d46f7de6a1701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f940ae6bc0989dc35efec6c644211fb6') in 0.011579542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Assets/Environment/FBX format/coin-silver.fbx
-  artifactKey: Guid(5fd05bc14360a423d92482ee14e8534b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/coin-silver.fbx using Guid(5fd05bc14360a423d92482ee14e8534b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19a720a9031e74312a31e05d159006c1') in 0.010480291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Assets/Environment/FBX format/block-moving-large.fbx
-  artifactKey: Guid(cc02f1416cbec4815998df1b198839e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-moving-large.fbx using Guid(cc02f1416cbec4815998df1b198839e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9869cb07433aad5b9ad14eda4331db88') in 0.010685209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-large-slope-narrow.fbx
-  artifactKey: Guid(261f5aa08521e4421ac1a1b3999a7ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-large-slope-narrow.fbx using Guid(261f5aa08521e4421ac1a1b3999a7ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3a166e99a0d92e2332a57630f26e62d') in 0.010754333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-large-slope-steep.fbx
-  artifactKey: Guid(7be5ac5c5a3b34072a639aeb5f02c53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-large-slope-steep.fbx using Guid(7be5ac5c5a3b34072a639aeb5f02c53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d6539f75f02478b9847af0e01f2d017') in 0.010037125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-corner.fbx
-  artifactKey: Guid(31d4ef8fecae5452a8e0093bd0ae86c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-corner.fbx using Guid(31d4ef8fecae5452a8e0093bd0ae86c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39c2e0ce55ae9305c1816c1ab28e0dab') in 0.011075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-corner-low.fbx
-  artifactKey: Guid(7810c64da02ce482cb7a0c5657b8a2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-corner-low.fbx using Guid(7810c64da02ce482cb7a0c5657b8a2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f88948653767887ec25893f2394f935') in 0.01054975 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-corner-overhang-low.fbx
-  artifactKey: Guid(b010c055ec64740fb8e0231ec9540b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-corner-overhang-low.fbx using Guid(b010c055ec64740fb8e0231ec9540b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0379d62c418b1c3347d6d1c2a42a8a72') in 0.0095175 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-large-slope-steep-narrow.fbx
-  artifactKey: Guid(0e08c39ed541b4acda60be2c4347db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-large-slope-steep-narrow.fbx using Guid(0e08c39ed541b4acda60be2c4347db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b5298e9e70f33d4f1b7bfbc851c64e9') in 0.01288875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-low-narrow.fbx
-  artifactKey: Guid(4fccadd7830ca4770b2b855f0d6a8f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-low-narrow.fbx using Guid(4fccadd7830ca4770b2b855f0d6a8f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0982685129fea751c654f74dab94c563') in 0.010158917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Assets/Environment/FBX format/arrow.fbx
-  artifactKey: Guid(78a31409bc2394622bcec4b012f24114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/arrow.fbx using Guid(78a31409bc2394622bcec4b012f24114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8d3a3e5ea3ca8b477b382605b6de5d6') in 0.008909292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-edge.fbx
-  artifactKey: Guid(834493e48bbba44f1a1a6994108df27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-edge.fbx using Guid(834493e48bbba44f1a1a6994108df27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51e4e592fd2333c3e217708dbfdc2e87') in 0.011585917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-low-large.fbx
-  artifactKey: Guid(4939f636cd1a144fe92952533464743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-low-large.fbx using Guid(4939f636cd1a144fe92952533464743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c028fa03fe9118025567e2b1800275d') in 0.009748167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-low-hexagon.fbx
-  artifactKey: Guid(89899d03fb22049669e1fd4475f964a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-low-hexagon.fbx using Guid(89899d03fb22049669e1fd4475f964a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f23fe83c03d1f549ebf75aa93d01c2a') in 0.010097875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Assets/Environment/FBX format/button-round.fbx
-  artifactKey: Guid(a687070980fd8407eb2ea87f7d8ff254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/button-round.fbx using Guid(a687070980fd8407eb2ea87f7d8ff254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e5575041911a5b0113c734fc3a2d796') in 0.01629475 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-low-long.fbx
-  artifactKey: Guid(e7c4fad8d9b38489085fa28f3c2a4716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-low-long.fbx using Guid(e7c4fad8d9b38489085fa28f3c2a4716) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4d5ad6b3d8b4c4d1ce948956d3bcacb') in 0.012191459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-edge.fbx
-  artifactKey: Guid(b1c2b4cb5d1504d518eab8610ec286d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-edge.fbx using Guid(b1c2b4cb5d1504d518eab8610ec286d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '941a906e9ceab7bb65fe1d2b71486aeb') in 0.010322875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-low-hexagon.fbx
-  artifactKey: Guid(73db2644dec9e477ca4a6c2a416e7c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-low-hexagon.fbx using Guid(73db2644dec9e477ca4a6c2a416e7c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b99ad85f66be85f0a5bd5eacae87bf4') in 0.0107305 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-edge.fbx
-  artifactKey: Guid(f5cd3d5dc92104cd791ad7027eeb97f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-edge.fbx using Guid(f5cd3d5dc92104cd791ad7027eeb97f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10e336c841f566f4c13f9ab38401cce5') in 0.0111525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-large-slope-steep.fbx
-  artifactKey: Guid(da6fefae573854c3facfc42ddac01f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-large-slope-steep.fbx using Guid(da6fefae573854c3facfc42ddac01f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '188b6c62e7c7a2979efaf82003bc3874') in 0.010942125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Assets/Environment/FBX format/button-square.fbx
-  artifactKey: Guid(0e0a1648f4dd743b78ac866af0f4682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/button-square.fbx using Guid(0e0a1648f4dd743b78ac866af0f4682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5fa18fdb33143ce7f2abe420865ca12') in 0.018544667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Assets/Environment/FBX format/coin-gold.fbx
-  artifactKey: Guid(e98e7abe9739b4dcaa6b758fe2f4ab88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/coin-gold.fbx using Guid(e98e7abe9739b4dcaa6b758fe2f4ab88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db904cadfcac61e1942b6be02ff7a179') in 0.011974333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-curve-half.fbx
-  artifactKey: Guid(7de880189582c40b0bd8c9ddccf79dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-curve-half.fbx using Guid(7de880189582c40b0bd8c9ddccf79dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55a64489f9ec2c1a9d75a8170b7b697a') in 0.011175333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-long.fbx
-  artifactKey: Guid(75328f18dfb3246ea873c55ba405c197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-long.fbx using Guid(75328f18dfb3246ea873c55ba405c197) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c419787a7ebdd532d46554f3502112a7') in 0.010868792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Assets/Environment/FBX format/block-moving-blue.fbx
-  artifactKey: Guid(9b360e217eff44696aabef21af7ae2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-moving-blue.fbx using Guid(9b360e217eff44696aabef21af7ae2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fde89186d68815adbfbeab36606f72e') in 0.011515375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-curve-low.fbx
-  artifactKey: Guid(887eae7ef3e97494592816f7709069b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-curve-low.fbx using Guid(887eae7ef3e97494592816f7709069b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3894ccd52b1cdaffbcf3e0316649650a') in 0.01023575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Assets/Environment/FBX format/chest.fbx
-  artifactKey: Guid(adfe33ee6bfdb4ada87bc6c3528e87a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/chest.fbx using Guid(adfe33ee6bfdb4ada87bc6c3528e87a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af64685942096676285fb66c14bed9e8') in 0.017474791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-low-long.fbx
-  artifactKey: Guid(ddb28bcc7f5114702bead626303539ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-low-long.fbx using Guid(ddb28bcc7f5114702bead626303539ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a009a252ee8148740a67343b1539d769') in 0.010240292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Assets/Environment/FBX format/arrows.fbx
-  artifactKey: Guid(22d9cd153c7514fb0a53a102f426f5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/arrows.fbx using Guid(22d9cd153c7514fb0a53a102f426f5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d65a499f8473acccde7191e680812bf') in 0.010557084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-large-slope-steep-narrow.fbx
-  artifactKey: Guid(61be24c603ac844dbbc4b103c1665bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-large-slope-steep-narrow.fbx using Guid(61be24c603ac844dbbc4b103c1665bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '693658e4b71086fa16582a6de34d892b') in 0.017470667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-corner-overhang-low.fbx
-  artifactKey: Guid(0b14415aea4dc4f1c9b7263267609879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-corner-overhang-low.fbx using Guid(0b14415aea4dc4f1c9b7263267609879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c7b627eab6f201d717ade5b1f234d67') in 0.009616833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-low-hexagon.fbx
-  artifactKey: Guid(68fd72f5bfb3c450b98e5e25a4355d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-low-hexagon.fbx using Guid(68fd72f5bfb3c450b98e5e25a4355d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0361effdcd09dcaadde824f2822f7c6b') in 0.012843292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-corner-overhang.fbx
-  artifactKey: Guid(d6a86020fca144a09b70a377f1c9ae2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-corner-overhang.fbx using Guid(d6a86020fca144a09b70a377f1c9ae2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a468558eb61f216e2111ce7ba97e929') in 0.011895125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-low-narrow.fbx
-  artifactKey: Guid(52e28806a03b24c4db85ceb60c00505a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-low-narrow.fbx using Guid(52e28806a03b24c4db85ceb60c00505a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f6b85b49f584852520403e971fe3536') in 0.01077825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Assets/Environment/FBX format/coin-bronze.fbx
-  artifactKey: Guid(7be741d04fdfd45dca4ce4bc3174028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/coin-bronze.fbx using Guid(7be741d04fdfd45dca4ce4bc3174028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f8448e40dac45aeb4ccf63facd0253c') in 0.013967625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-low-hexagon.fbx
-  artifactKey: Guid(282d407d8eccb42dd8a2099ce90c39fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-low-hexagon.fbx using Guid(282d407d8eccb42dd8a2099ce90c39fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '072c2d1468fdb76f2911bacdc99170c8') in 0.010617541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-low.fbx
-  artifactKey: Guid(2254daa88b30445928966b95106c7d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-low.fbx using Guid(2254daa88b30445928966b95106c7d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39cf0f6ed43972ac01ba674183639273') in 0.010652084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-large.fbx
-  artifactKey: Guid(c8dfe9d96cf504944bae1c43f3653ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-large.fbx using Guid(c8dfe9d96cf504944bae1c43f3653ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62cb1624fa1a36dc0490d02a1f8b646c') in 0.010202334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-corner-low.fbx
-  artifactKey: Guid(ee78ae03f92564ac7820d3c70043f712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-corner-low.fbx using Guid(ee78ae03f92564ac7820d3c70043f712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5982a8b4044426866fca3f64cc53046') in 0.011063125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-narrow.fbx
-  artifactKey: Guid(f5e67a34bedf7447c8bf9251cedc709d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-narrow.fbx using Guid(f5e67a34bedf7447c8bf9251cedc709d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcbc360439af98e9fa5bb21b87b3898f') in 0.01394125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-curve-low.fbx
-  artifactKey: Guid(5997f7433d1c5441c8e2c8d3274a1ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-curve-low.fbx using Guid(5997f7433d1c5441c8e2c8d3274a1ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0be655bec72112d23aeeafb9e8d5c458') in 0.010159667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-low-long.fbx
-  artifactKey: Guid(b9d5f347d36c944218d308a3220e2ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-low-long.fbx using Guid(b9d5f347d36c944218d308a3220e2ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3153280dfec78db7daccc815fa9b7832') in 0.010206834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-large-slope-steep-narrow.fbx
-  artifactKey: Guid(c7ffefc7641f94705a0dc7f092c2d2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-large-slope-steep-narrow.fbx using Guid(c7ffefc7641f94705a0dc7f092c2d2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f0fc870d2d5634b31e0f2df475e710d') in 0.011090958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-hexagon.fbx
-  artifactKey: Guid(e366b993da6b3465a9fb3ba56f5ad6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-hexagon.fbx using Guid(e366b993da6b3465a9fb3ba56f5ad6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc4903eeacc5277e8d4d81aa8b72a692') in 0.010068208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-large-slope-narrow.fbx
-  artifactKey: Guid(1f3fdecdb89dd4eb89993af4515d61e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-large-slope-narrow.fbx using Guid(1f3fdecdb89dd4eb89993af4515d61e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85c4e0da6d5f7fee253b36f36d2abc20') in 0.013469042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-corner.fbx
-  artifactKey: Guid(1673682b7a814462f8545d0d43a01ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-corner.fbx using Guid(1673682b7a814462f8545d0d43a01ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb084020c648ab36960a72d1ae0d1269') in 0.010567542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-curve.fbx
-  artifactKey: Guid(c709d13997ef84d4da0a4a7cd4a30a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-curve.fbx using Guid(c709d13997ef84d4da0a4a7cd4a30a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fde92e9aaf5ecef72cebe766edf8768') in 0.0103905 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-edge.fbx
-  artifactKey: Guid(7b4b7633529544d92a6392cafc9c9665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-edge.fbx using Guid(7b4b7633529544d92a6392cafc9c9665) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97345543938c895ccabee27c78d5a7c8') in 0.010546041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-hexagon.fbx
-  artifactKey: Guid(853926d6817184619b623d0c5e2416f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-hexagon.fbx using Guid(853926d6817184619b623d0c5e2416f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ace731238c0696251280772d28362faa') in 0.011300833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-low-large.fbx
-  artifactKey: Guid(265c7f6101c82499ebbf23474d172387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-low-large.fbx using Guid(265c7f6101c82499ebbf23474d172387) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52c3d7f750a4a2ec0a5be8eec5ea8829') in 0.010302042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-large.fbx
-  artifactKey: Guid(887796a6315a24083b5987db32aecde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-large.fbx using Guid(887796a6315a24083b5987db32aecde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87712af7a125990c744322c67cf4cdf4') in 0.010927042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-low-long.fbx
-  artifactKey: Guid(0d008b04d3a504f60999b5e6695229c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-low-long.fbx using Guid(0d008b04d3a504f60999b5e6695229c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c214a53e7bcfc7f0ca8b91dd70e3eee') in 0.01126625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-hexagon.fbx
-  artifactKey: Guid(1bd89c8f6b3354bff8271f5e4fba10f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-hexagon.fbx using Guid(1bd89c8f6b3354bff8271f5e4fba10f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de91cb9ed527c6418d5f2df2018b7db7') in 0.010875875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-curve-half.fbx
-  artifactKey: Guid(601c76b047c06471c8a5990680f4a091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-curve-half.fbx using Guid(601c76b047c06471c8a5990680f4a091) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccdc119fcaddf73eed26d570888cd7f5') in 0.010754041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-curve.fbx
-  artifactKey: Guid(2e0c2db47ef464266bd96beac285f1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-curve.fbx using Guid(2e0c2db47ef464266bd96beac285f1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f28b4e97862d921c342f6aba302b52b') in 0.011046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-large-slope-narrow.fbx
-  artifactKey: Guid(de46a0f5cedea4a61a176bf270053732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-large-slope-narrow.fbx using Guid(de46a0f5cedea4a61a176bf270053732) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '497bb171e04aabf3c4a037b2ffd68296') in 0.010113208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-narrow.fbx
-  artifactKey: Guid(f9504e9df2cd046ad94ddab125e40385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-narrow.fbx using Guid(f9504e9df2cd046ad94ddab125e40385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08c8b4f1fbcc430b98baefde6ee88933') in 0.011727875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-corner.fbx
-  artifactKey: Guid(c710ffdf28a6743bebd06fb16e705120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-corner.fbx using Guid(c710ffdf28a6743bebd06fb16e705120) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fb6156fb8759e63c5756f61460557d6') in 0.01489475 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-large-slope.fbx
-  artifactKey: Guid(21e6694d34f1340dab706777616571be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-large-slope.fbx using Guid(21e6694d34f1340dab706777616571be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3c5b8bdae294ea2e8475f7f336ce53d') in 0.010528542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-long.fbx
-  artifactKey: Guid(d9b271b970af64915b6cec0c98de7292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-long.fbx using Guid(d9b271b970af64915b6cec0c98de7292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb20e2e41ee4ac4f894e51240ec9f0e8') in 0.0107105 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-low-large.fbx
-  artifactKey: Guid(e45aad7300d7e4660a88797e573b20dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-low-large.fbx using Guid(e45aad7300d7e4660a88797e573b20dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c260ca2f6bc5b0b430757109553786c') in 0.010625333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-large-slope-steep.fbx
-  artifactKey: Guid(0516951eae16f4d2e8972ec8d5dde859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-large-slope-steep.fbx using Guid(0516951eae16f4d2e8972ec8d5dde859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8628e761f7ddb221387300c6b074c4d3') in 0.011436666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-low-narrow.fbx
-  artifactKey: Guid(c04662d055b08465a9369d1579ae3471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-low-narrow.fbx using Guid(c04662d055b08465a9369d1579ae3471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e287fb63054efdc02b6dad6a00941a7') in 0.011803625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-long.fbx
-  artifactKey: Guid(4944774e1a9d849ad8a3bab3f8b1c9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-long.fbx using Guid(4944774e1a9d849ad8a3bab3f8b1c9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11b004fd21c026d17b951e994b4b12ee') in 0.010644833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-large-tall.fbx
-  artifactKey: Guid(3cb0a0e67be2144c488514d690f2b3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-large-tall.fbx using Guid(3cb0a0e67be2144c488514d690f2b3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0bf2c1f00ed7508eacb307b4e7b9359') in 0.010645375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-large-slope-steep.fbx
-  artifactKey: Guid(5ebeab33055a84857adcaf8cde26173a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-large-slope-steep.fbx using Guid(5ebeab33055a84857adcaf8cde26173a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca070ef4f9f9396f3cf4374afa9b5eb6') in 0.011206834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-large-slope-steep-narrow.fbx
-  artifactKey: Guid(a7ca6017d8dac47f186fd49d6d19629c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-large-slope-steep-narrow.fbx using Guid(a7ca6017d8dac47f186fd49d6d19629c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dae4a6cae830d78a53bcf99b7b54c52') in 0.011185875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Assets/Environment/FBX format/block-moving.fbx
-  artifactKey: Guid(56f05220dcd3f49128b82590d7696977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-moving.fbx using Guid(56f05220dcd3f49128b82590d7696977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b952a151fe186e7de05fea8c86c0cb27') in 0.010517333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-large-slope-narrow.fbx
-  artifactKey: Guid(4a73235d1ea104da29c46a7d68c91126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-large-slope-narrow.fbx using Guid(4a73235d1ea104da29c46a7d68c91126) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f990f7cece24a04fe513b1f3c8ae5bc9') in 0.01179325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-low.fbx
-  artifactKey: Guid(531a6e76715fc46d584d658eba8ad204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-low.fbx using Guid(531a6e76715fc46d584d658eba8ad204) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7f5264e9ca424fa15bb557f360a2f09') in 0.015172125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Assets/Environment/FBX format/bomb.fbx
-  artifactKey: Guid(6d0c23225c3b1444490004bdca948c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/bomb.fbx using Guid(6d0c23225c3b1444490004bdca948c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90e1696d7895d4e1ab5437af9de22022') in 0.00998725 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Assets/Environment/FBX format/barrel.fbx
-  artifactKey: Guid(50fcd242a4d0a4c24b33925dc7014cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/barrel.fbx using Guid(50fcd242a4d0a4c24b33925dc7014cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f0e00fd4ef8b67cb5e0c973c57400ee') in 0.01104075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-hexagon.fbx
-  artifactKey: Guid(28e5bdc3a9cb24904a28754e3e6dcec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-hexagon.fbx using Guid(28e5bdc3a9cb24904a28754e3e6dcec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f823233040fd52b566e07fff6ee53c3f') in 0.011021583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-long.fbx
-  artifactKey: Guid(0f179b15bcfbe4d0db018c29b9fad4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-long.fbx using Guid(0f179b15bcfbe4d0db018c29b9fad4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2b9e4bd891f3d3a14c387d8fccdbb1c') in 0.012233458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-large.fbx
-  artifactKey: Guid(2f39dae3a81b84b8ea5bff4a1df85880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-large.fbx using Guid(2f39dae3a81b84b8ea5bff4a1df85880) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b12cb1c212c6b65dbc62dc55d74a7e5') in 0.010308292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-large-tall.fbx
-  artifactKey: Guid(b0cfaed8297594b46a4e676aa170d3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-large-tall.fbx using Guid(b0cfaed8297594b46a4e676aa170d3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a511e734f01234b29ee54e1e0a987c6b') in 0.010815167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-corner.fbx
-  artifactKey: Guid(693cecdd944e443278f1103e9add9fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-corner.fbx using Guid(693cecdd944e443278f1103e9add9fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '389b2a416d4f84e313bcab71a458668c') in 0.010657875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-low.fbx
-  artifactKey: Guid(0c80d438f1823459e8eceb0e9d676163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-low.fbx using Guid(0c80d438f1823459e8eceb0e9d676163) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19158814afcaec1a5ea736de8074151d') in 0.011636958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-large-tall.fbx
-  artifactKey: Guid(6580ed48388d04dce9623e7e327be792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-large-tall.fbx using Guid(6580ed48388d04dce9623e7e327be792) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ff7dea21a5d51dc23fb4e22b73133de') in 0.014382959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-low-large.fbx
-  artifactKey: Guid(cc5ffe7fbbac042d386457e865bc616d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-low-large.fbx using Guid(cc5ffe7fbbac042d386457e865bc616d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40eb1f0bab2f0b7e50b9a20995b765b1') in 0.011013125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
+Unloading 5762 unused Assets / (7.5 MB). Loaded Objects now: 6468.
+Memory consumption went from 155.7 MB to 148.3 MB.
+Total: 7.409625 ms (FindLiveObjects: 0.675708 ms CreateObjectMapping: 0.159125 ms MarkObjects: 4.203208 ms  DeleteObjects: 2.370959 ms)
+
+========================================================================
+Received Prepare
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 5fab0d74d4d31754180a351f20d1dd72
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 5fab0d74d4d31754180a351f20d1dd72
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+Begin MonoManager ReloadAssembly
+Thread 0x323493000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.616 seconds
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 5fab0d74d4d31754180a351f20d1dd72
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.88 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 5fab0d74d4d31754180a351f20d1dd72
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs:34 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.716 seconds
+Domain Reload Profiling: 1333ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (359ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (20ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (716ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (540ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.61 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5815 unused Assets / (8.0 MB). Loaded Objects now: 6533.
+Memory consumption went from 188.5 MB to 180.5 MB.
+Total: 8.842500 ms (FindLiveObjects: 0.370208 ms CreateObjectMapping: 0.238417 ms MarkObjects: 4.416458 ms  DeleteObjects: 3.816959 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Prepare
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 3e5ecfe2afaeb46a6bf39845165b9b6a
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 3e5ecfe2afaeb46a6bf39845165b9b6a
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+Begin MonoManager ReloadAssembly
+Thread 0x16f743000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.896 seconds
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 3e5ecfe2afaeb46a6bf39845165b9b6a
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 23.30 ms, found 18 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.CodeSamples.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/CodeSamples/Unity.XR.CoreUtils.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Editor.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Editor/XRCoreUtilities/Unity.XR.CoreUtils.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/Runtime/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.ARFoundation.CodeSamples.Tests' already exists (Packages/com.unity.xr.arfoundation/Tests/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.Editor.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/' contains multiple assembly definition files (Packages/com.unity.xr.arfoundation/Tests/Editor/CodeSamples/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/XRCoreUtilities/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.CoreUtils.Tests' already exists (Packages/com.unity.xr.core-utils/Tests/Runtime/Unity.XR.CoreUtils.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Assembly with name 'Unity.XR.MetaOpenXR.CodeSamples.Tests' already exists (Packages/com.unity.xr.meta-openxr/Tests/Runtime/CodeSamples/Unity.XR.MetaOpenXR.CodeSamples.Tests.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Tests.Editor.asmdef)
+Folder 'Packages/com.unity.xr.meta-openxr/Tests/Editor/' contains multiple assembly definition files (Packages/com.unity.xr.meta-openxr/Tests/Editor/Unity.XR.MetaOpenXR.Editor.Tests.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 3e5ecfe2afaeb46a6bf39845165b9b6a
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00029] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00051] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Func`2[T,TResult] elementSelector) [0x00000] in <705d087bf4254af9b48f07cfba1c906e>:0 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilder.Initialize (System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00046] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs:85 
+  at UnityEditor.Scripting.ScriptCompilation.AssemblyGraphBuilderFactory.GetOrCreate (System.String projectPath, System.Collections.Generic.IReadOnlyCollection`1[T] assemblies, System.Collections.Generic.IReadOnlyCollection`1[T] customScriptAssemblyReferences) [0x00038] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilderFactory.cs:54 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.GetAssemblyGraphBuilder () [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:169 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllScripts (System.String[] allScripts) [0x0000d] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:177 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllScripts (System.String[] allScripts) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:79 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/AssemblyGraphBuilder.cs Line: 85)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 4.11 ms, found 18 plugins.
+19/03 17:09:01.545 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+19/03 17:09:01.545 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs:34 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.014 seconds
+Domain Reload Profiling: 1910ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (622ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (131ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1015ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (826ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (634ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'URP/UI/Prerendered Opaque': fallback shader 'UI/Prerendered Opaque' not found
+Shader 'URP/UI/Prerendered': fallback shader 'UI/Prerendered' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 5.82 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 294.32 ms.
+Unloading 142 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8403 unused Assets / (24.3 MB). Loaded Objects now: 8985.
+Memory consumption went from 239.7 MB to 215.4 MB.
+Total: 21.259834 ms (FindLiveObjects: 0.970709 ms CreateObjectMapping: 0.313583 ms MarkObjects: 9.726500 ms  DeleteObjects: 10.247875 ms)
+
+Prepare: number of updated asset objects reloaded= 79
