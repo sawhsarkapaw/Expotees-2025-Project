@@ -1,0 +1,2 @@
+/Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt
+/Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/CMakeLists.txt
