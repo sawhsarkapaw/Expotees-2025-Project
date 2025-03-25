@@ -7,10 +7,12 @@ public class ProgrammingManager : MonoBehaviour
     public void OpenProgrammingPanel()
     {
         ProgrammingPanel.SetActive(true);
+        Debug.Log("Programming Panel Opened");
     }
 
     public void CloseProgrammingPanel()
     {
         ProgrammingPanel.SetActive(false);
+        Debug.Log("Programming Panel Closed");
     }
 }
