@@ -1,8 +1,10 @@
 using System.Collections;
 using UnityEngine;
+using TMPro;
 
 public class TurnManager : MonoBehaviour
 {
+    [SerializeField] TextMeshProUGUI DebugText;
     private enum TurnState
     {
         PlayerTurn,
@@ -29,8 +31,9 @@ public class TurnManager : MonoBehaviour
         }
     }
 
-    private void Start()
+    public void Start()
     {
+        DebugText.text = "Turn Manager Initialized";
         currentState = TurnState.PlayerTurn;
         StartCoroutine(TurnLoop());
     }

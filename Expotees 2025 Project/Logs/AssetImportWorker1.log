@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65354
+64352
 -job-worker-count
 4
 -background-job-worker-count
@@ -68,7 +68,9 @@ Successfully changed project path to: /Users/kapaw/Desktop/Expotees-2025-Project
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8610515008]  Target information:
 
-Player connection [8610515008]  * "[IP] 172.16.6.34 [Port] 0 [Flags] 2 [Guid] 384315467 [EditorId] 384315467 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8610515008]  * "[IP] 172.16.6.34 [Port] 0 [Flags] 2 [Guid] 1973987491 [EditorId] 1973987491 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8610515008]  * "[IP] 169.254.96.35 [Port] 0 [Flags] 2 [Guid] 1973987491 [EditorId] 1973987491 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8610515008] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8610515008] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -82,8 +84,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 16.57 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 3.06 ms.
+Refreshing native plugins compatible for Editor in 34.34 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 7.36 ms.
 Initialize engine version: 6000.0.33f1 (433b0a79340b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Assets
@@ -99,48 +101,173 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56167
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56815
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001494 seconds.
-- Loaded All Assemblies, in  0.319 seconds
+Registered in 0.004099 seconds.
+- Loaded All Assemblies, in  0.377 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 3122 ms
+Unable to list connected devices. 
+* daemon not running; starting now at tcp:5037
+ADB server didn't ACK
+Full server startup log: /var/folders/vd/h56pv79j7xgf_8sxhczbrv100000gn/T//adb.501.log
+Server had pid: 35837
+--- adb starting (pid 35837) ---
+04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Version 34.0.5-10900879
+04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
+04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 
+04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Version 34.0.5-10900879
+04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
+04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 
+04-09 09:12:44.314 35838 30345816 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
+04-09 09:12:44.314 35838 30345816 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-09 09:12:44.314 35838 30345816 I adb     : usb_libusb.cpp:804 device connected: 1-1
+04-09 09:12:44.314 35837 30345820 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
+04-09 09:12:44.314 35837 30345820 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-09 09:12:44.314 35837 30345820 I adb     : usb_libusb.cpp:804 device connected: 1-1
+04-09 09:12:44.314 35838 30345810 I adb     : auth.cpp:416 adb_auth_init...
+04-09 09:12:44.316 35837 30345820 E adb     : usb_libusb.cpp:536 failed to claim adb interface for device '2G0YC1ZF7Z0VTN': LIBUSB_ERROR_ACCESS
+04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:819 constructed LibusbConnection for device 2G0YC1ZF7Z0VTN (1-1)
+04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:804 device connected: 0-1
+04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:733 ignoring device usb:0-1: not an adb interface. (FindInterface)
+04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:804 device connected: 2-1
+04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:733 ignoring device usb:2-1: not an adb interface. (FindInterface)
+04-09 09:12:44.317 35838 30345810 I adb     : auth.cpp:152 loaded new key from '/Users/kapaw/.android/adbkey' with fingerprint 5AD1CDF18774BA58980B06A343ECC18E140F753118DDCDBFF21E5C961500DDD8
+04-09 09:12:44.318 35838 30345810 I adb     : usb_libusb.cpp:651 registered new usb device '2G0YC1ZF7Z0VTN'
+04-09 09:12:44.319 35838 30345810 I adb     : transport.cpp:1734 fetching keys for transport 2G0YC1ZF7Z0VTN
+04-09 09:12:44.319 35838 30345810 I adb     : auth.cpp:468 Calling send_auth_response
+04-09 09:12:44.321 35838 30345810 I adb     : adb.cpp:180 2G0YC1ZF7Z0VTN: offline
+
+* failed to start daemon
+adb: failed to check server version: cannot connect to daemon
+
+UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
+/Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
+
+Environment Variables:
+XPC_SERVICE_NAME = application.com.unity3d.unityhub.121842735.121842741
+XPC_FLAGS = 0x0
+MallocNanoZone = 0
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+SHELL = /bin/zsh
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.LE50rQFfhW/Listeners
+HOME = /Users/kapaw
+OTHER_XR_RUNTIME_JSON = /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Library/PackageCache/com.meta.xr.simulator/MetaXRSimulator/meta_openxr_simulator_posix.json
+PATH = /usr/bin:/bin:/usr/sbin:/sbin
+__CFBundleIdentifier = com.unity3d.unityhub
+USER = kapaw
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+TMPDIR = /var/folders/vd/h56pv79j7xgf_8sxhczbrv100000gn/T/
+LOGNAME = kapaw
+COMMAND_MODE = unix2003
+
+
+stderr[
+* daemon not running; starting now at tcp:5037
+ADB server didn't ACK
+Full server startup log: /var/folders/vd/h56pv79j7xgf_8sxhczbrv100000gn/T//adb.501.log
+Server had pid: 35837
+--- adb starting (pid 35837) ---
+04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Version 34.0.5-10900879
+04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
+04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 
+04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Version 34.0.5-10900879
+04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
+04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 
+04-09 09:12:44.314 35838 30345816 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
+04-09 09:12:44.314 35838 30345816 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-09 09:12:44.314 35838 30345816 I adb     : usb_libusb.cpp:804 device connected: 1-1
+04-09 09:12:44.314 35837 30345820 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
+04-09 09:12:44.314 35837 30345820 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-09 09:12:44.314 35837 30345820 I adb     : usb_libusb.cpp:804 device connected: 1-1
+04-09 09:12:44.314 35838 30345810 I adb     : auth.cpp:416 adb_auth_init...
+04-09 09:12:44.316 35837 30345820 E adb     : usb_libusb.cpp:536 failed to claim adb interface for device '2G0YC1ZF7Z0VTN': LIBUSB_ERROR_ACCESS
+04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:819 constructed LibusbConnection for device 2G0YC1ZF7Z0VTN (1-1)
+04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:804 device connected: 0-1
+04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:733 ignoring device usb:0-1: not an adb interface. (FindInterface)
+04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:804 device connected: 2-1
+04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:733 ignoring device usb:2-1: not an adb interface. (FindInterface)
+04-09 09:12:44.317 35838 30345810 I adb     : auth.cpp:152 loaded new key from '/Users/kapaw/.android/adbkey' with fingerprint 5AD1CDF18774BA58980B06A343ECC18E140F753118DDCDBFF21E5C961500DDD8
+04-09 09:12:44.318 35838 30345810 I adb     : usb_libusb.cpp:651 registered new usb device '2G0YC1ZF7Z0VTN'
+04-09 09:12:44.319 35838 30345810 I adb     : transport.cpp:1734 fetching keys for transport 2G0YC1ZF7Z0VTN
+04-09 09:12:44.319 35838 30345810 I adb     : auth.cpp:468 Calling send_auth_response
+04-09 09:12:44.321 35838 30345810 I adb     : adb.cpp:180 2G0YC1ZF7Z0VTN: offline
+
+* failed to start daemon
+adb: failed to check server version: cannot connect to daemon
+]
+stdout[
+
+]
+exit code: 1
+  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <96672911ce664afea25a63cd59e554c0>:0 
+  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00017] in <96672911ce664afea25a63cd59e554c0>:0 
+  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg, System.Text.Encoding inputEncoding) [0x0000c] in <96672911ce664afea25a63cd59e554c0>:0 
+  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <96672911ce664afea25a63cd59e554c0>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <96672911ce664afea25a63cd59e554c0>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x002ae] in <96672911ce664afea25a63cd59e554c0>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:ScanSync ()
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+UnityEditor.Android.TargetExtension:OnLoad ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs:126)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs Line: 126)
+
+Android Extension - Scanning For ADB Devices 419 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.461 seconds
-Domain Reload Profiling: 3781ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  0.690 seconds
+Domain Reload Profiling: 1067ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (31ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (137ms)
-		LoadAssemblies (105ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (141ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (133ms)
-			TypeCache.Refresh (131ms)
-				TypeCache.ScanAssembly (118ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (137ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (3462ms)
+	FinalizeReload (691ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3410ms)
+		SetupLoadedEditorAssemblies (647ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3199ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (44ms)
-			ProcessInitializeOnLoadAttributes (103ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			InitializePlatformSupportModulesInManaged (483ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (81ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,7 +277,7 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.735 seconds
+- Loaded All Assemblies, in  0.780 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -158,7 +285,7 @@ AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 5.77 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 5.23 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -169,9 +296,8 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 5.52 ms, found 18 plugins.
-05/04 10:43:42.012 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
-05/04 10:43:42.012 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
+Refreshing native plugins compatible for Editor in 3.71 ms, found 18 plugins.
+09/04 09:12:47.325 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
 [Synthetic Environments] got match open -n synth_env_server.app --args Bedroom
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -393,57 +519,65 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.097 seconds
-Domain Reload Profiling: 1830ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  1.899 seconds
+Domain Reload Profiling: 2671ms
+	BeginReloadAssembly (92ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (32ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (516ms)
-		LoadAssemblies (256ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (614ms)
+		LoadAssemblies (325ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (320ms)
-			TypeCache.Refresh (237ms)
-				TypeCache.ScanAssembly (205ms)
-			BuildScriptInfoCaches (61ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1097ms)
+		AnalyzeDomain (328ms)
+			TypeCache.Refresh (246ms)
+				TypeCache.ScanAssembly (221ms)
+			BuildScriptInfoCaches (59ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1899ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (972ms)
+		SetupLoadedEditorAssemblies (1777ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (134ms)
-			ProcessInitializeOnLoadAttributes (685ms)
-			ProcessInitializeOnLoadMethodAttributes (140ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (1488ms)
+			ProcessInitializeOnLoadMethodAttributes (180ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+		AwakeInstancesAfterBackupRestoration (2ms)
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 [OVRPlugin][INFO] UnityPluginLoad called
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 9.95 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.59 ms.
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.36 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
 Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8319 unused Assets / (5.5 MB). Loaded Objects now: 9097.
-Memory consumption went from 211.8 MB to 206.3 MB.
-Total: 12.288916 ms (FindLiveObjects: 0.654042 ms CreateObjectMapping: 0.279625 ms MarkObjects: 7.897250 ms  DeleteObjects: 3.456875 ms)
+Unloading 8319 unused Assets / (8.5 MB). Loaded Objects now: 9097.
+Memory consumption went from 211.8 MB to 203.3 MB.
+Total: 12.602292 ms (FindLiveObjects: 1.336042 ms CreateObjectMapping: 0.525458 ms MarkObjects: 7.347667 ms  DeleteObjects: 3.392125 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1094542.740503 seconds.
+  path: Assets/Henry/Scripts/CharacterMover.cs
+  artifactKey: Guid(0073a60a2f72cb6458d3d0a96794806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Henry/Scripts/CharacterMover.cs using Guid(0073a60a2f72cb6458d3d0a96794806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d03ed82f24613b2f8559fffadb7dbdb') in 0.007164667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x3453f7000 may have been prematurely finalized
+Thread 0x347987000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.700 seconds
+- Loaded All Assemblies, in  0.819 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -451,7 +585,7 @@ AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 4.35 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 3.97 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -461,7 +595,7 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 3.85 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 3.93 ms, found 18 plugins.
 [Synthetic Environments] got match open -n synth_env_server.app --args Bedroom
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -680,61 +814,55 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.989 seconds
-Domain Reload Profiling: 1691ms
-	BeginReloadAssembly (192ms)
+- Finished resetting the current domain, in  0.976 seconds
+Domain Reload Profiling: 1799ms
+	BeginReloadAssembly (221ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (99ms)
-	RebuildCommonClasses (33ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (449ms)
-		LoadAssemblies (264ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (532ms)
+		LoadAssemblies (328ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (230ms)
-			TypeCache.Refresh (18ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (27ms)
 				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (190ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (989ms)
+			BuildScriptInfoCaches (212ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (977ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (799ms)
+		SetupLoadedEditorAssemblies (763ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (110ms)
-			ProcessInitializeOnLoadAttributes (551ms)
-			ProcessInitializeOnLoadMethodAttributes (121ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (516ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 5.22 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.53 ms.
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.81 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
 Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8317 unused Assets / (8.5 MB). Loaded Objects now: 9112.
-Memory consumption went from 225.9 MB to 217.4 MB.
-Total: 12.197416 ms (FindLiveObjects: 0.421500 ms CreateObjectMapping: 0.261958 ms MarkObjects: 7.025917 ms  DeleteObjects: 4.487041 ms)
+Unloading 8317 unused Assets / (7.6 MB). Loaded Objects now: 9114.
+Memory consumption went from 226.5 MB to 218.9 MB.
+Total: 10.733042 ms (FindLiveObjects: 0.431500 ms CreateObjectMapping: 0.246833 ms MarkObjects: 6.950333 ms  DeleteObjects: 3.103792 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
 Begin MonoManager ReloadAssembly
-Thread 0x32158b000 may have been prematurely finalized
+Thread 0x31d6d3000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.809 seconds
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
+- Loaded All Assemblies, in  0.787 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -742,19 +870,17 @@ AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 5.03 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 3.91 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 4.47 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 4.11 ms, found 18 plugins.
 [Synthetic Environments] got match open -n synth_env_server.app --args Bedroom
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -973,46 +1099,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.951 seconds
-Domain Reload Profiling: 1762ms
-	BeginReloadAssembly (244ms)
+- Finished resetting the current domain, in  0.955 seconds
+Domain Reload Profiling: 1745ms
+	BeginReloadAssembly (189ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (122ms)
-	RebuildCommonClasses (30ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (38ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (510ms)
-		LoadAssemblies (342ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (533ms)
+		LoadAssemblies (314ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (232ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (191ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (951ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (212ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (955ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (774ms)
+		SetupLoadedEditorAssemblies (756ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (124ms)
-			ProcessInitializeOnLoadAttributes (509ms)
-			ProcessInitializeOnLoadMethodAttributes (128ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (521ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
 			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+		AwakeInstancesAfterBackupRestoration (8ms)
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 5.52 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.62 ms.
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.76 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
 Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8317 unused Assets / (7.4 MB). Loaded Objects now: 9115.
-Memory consumption went from 224.3 MB to 216.8 MB.
-Total: 13.623208 ms (FindLiveObjects: 0.491708 ms CreateObjectMapping: 0.288209 ms MarkObjects: 8.081166 ms  DeleteObjects: 4.761209 ms)
+Unloading 8317 unused Assets / (8.4 MB). Loaded Objects now: 9117.
+Memory consumption went from 224.7 MB to 216.3 MB.
+Total: 10.415500 ms (FindLiveObjects: 0.504917 ms CreateObjectMapping: 0.230542 ms MarkObjects: 6.483583 ms  DeleteObjects: 3.195917 ms)
 
 Prepare: number of updated asset objects reloaded= 0

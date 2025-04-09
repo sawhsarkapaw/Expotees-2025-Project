@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65354
+64352
 -job-worker-count
 4
 -background-job-worker-count
@@ -68,7 +68,9 @@ Successfully changed project path to: /Users/kapaw/Desktop/Expotees-2025-Project
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8610515008]  Target information:
 
-Player connection [8610515008]  * "[IP] 172.16.6.34 [Port] 0 [Flags] 2 [Guid] 526483511 [EditorId] 526483511 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8610515008]  * "[IP] 172.16.6.34 [Port] 0 [Flags] 2 [Guid] 1124311714 [EditorId] 1124311714 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8610515008]  * "[IP] 169.254.96.35 [Port] 0 [Flags] 2 [Guid] 1124311714 [EditorId] 1124311714 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8610515008] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8610515008] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -82,8 +84,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 16.82 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 2.98 ms.
+Refreshing native plugins compatible for Editor in 34.98 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 7.36 ms.
 Initialize engine version: 6000.0.33f1 (433b0a79340b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Assets
@@ -99,170 +101,48 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56165
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56813
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001409 seconds.
-- Loaded All Assemblies, in  0.319 seconds
+Registered in 0.005291 seconds.
+- Loaded All Assemblies, in  0.369 seconds
 Native extension for Android target not found
-Unable to list connected devices. 
-* daemon not running; starting now at tcp:5037
-ADB server didn't ACK
-Full server startup log: /var/folders/vd/h56pv79j7xgf_8sxhczbrv100000gn/T//adb.501.log
-Server had pid: 90174
---- adb starting (pid 90174) ---
-04-05 10:43:36.852 90174 28018242 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-04-05 10:43:36.852 90174 28018242 I adb     : main.cpp:63 Version 34.0.5-10900879
-04-05 10:43:36.852 90174 28018242 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-04-05 10:43:36.852 90174 28018242 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-04-05 10:43:36.852 90174 28018242 I adb     : main.cpp:63 
---- adb starting (pid 90175) ---
-04-05 10:43:36.854 90175 28018244 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-04-05 10:43:36.854 90175 28018244 I adb     : main.cpp:63 Version 34.0.5-10900879
-04-05 10:43:36.854 90175 28018244 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-04-05 10:43:36.854 90175 28018244 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-04-05 10:43:36.854 90175 28018244 I adb     : main.cpp:63 
-04-05 10:43:36.858 90175 28018253 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
-04-05 10:43:36.858 90175 28018244 I adb     : auth.cpp:416 adb_auth_init...
-04-05 10:43:36.858 90175 28018253 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-05 10:43:36.858 90175 28018253 I adb     : usb_libusb.cpp:804 device connected: 1-1
-04-05 10:43:36.858 90175 28018253 I adb     : usb_libusb.cpp:733 ignoring device usb:1-1: not an adb interface. (FindInterface)
-04-05 10:43:36.858 90175 28018253 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-05 10:43:36.858 90174 28018255 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
-04-05 10:43:36.858 90175 28018253 I adb     : usb_libusb.cpp:804 device connected: 0-1
-04-05 10:43:36.858 90174 28018255 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-05 10:43:36.858 90175 28018253 I adb     : usb_libusb.cpp:733 ignoring device usb:0-1: not an adb interface. (FindInterface)
-04-05 10:43:36.858 90174 28018255 I adb     : usb_libusb.cpp:804 device connected: 1-1
-04-05 10:43:36.858 90174 28018255 I adb     : usb_libusb.cpp:733 ignoring device usb:1-1: not an adb interface. (FindInterface)
-04-05 10:43:36.858 90174 28018255 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-05 10:43:36.858 90174 28018255 I adb     : usb_libusb.cpp:804 device connected: 0-1
-04-05 10:43:36.858 90174 28018255 I adb     : usb_libusb.cpp:733 ignoring device usb:0-1: not an adb interface. (FindInterface)
-04-05 10:43:36.860 90175 28018244 I adb     : auth.cpp:152 loaded new key from '/Users/kapaw/.android/adbkey' with fingerprint 5AD1CDF18774BA58980B06A343ECC18E140F753118DDCDBFF21E5C961500DDD8
-04-05 10:43:37.363 90174 28018242 F adb     : main.cpp:165 could not install *smartsocket* listener: Address already in use
-
-* failed to start daemon
-adb: failed to check server version: cannot connect to daemon
-
-UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
-/Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
-
-Environment Variables:
-XPC_SERVICE_NAME = 0
-COMMAND_MODE = unix2003
-XPC_FLAGS = 0x0
-MallocNanoZone = 0
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-SHELL = /bin/zsh
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.LE50rQFfhW/Listeners
-HOME = /Users/kapaw
-OTHER_XR_RUNTIME_JSON = /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Library/PackageCache/com.meta.xr.simulator/MetaXRSimulator/meta_openxr_simulator_posix.json
-PATH = /usr/bin:/bin:/usr/sbin:/sbin
-__CFBundleIdentifier = com.unity3d.unityhub
-USER = kapaw
-__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
-TMPDIR = /var/folders/vd/h56pv79j7xgf_8sxhczbrv100000gn/T/
-LOGNAME = kapaw
-ENGINE_XRSIM_SESSION = 367041c9-2755-4a04-981f-57de37602cf2
-
-
-stderr[
-* daemon not running; starting now at tcp:5037
-ADB server didn't ACK
-Full server startup log: /var/folders/vd/h56pv79j7xgf_8sxhczbrv100000gn/T//adb.501.log
-Server had pid: 90174
---- adb starting (pid 90174) ---
-04-05 10:43:36.852 90174 28018242 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-04-05 10:43:36.852 90174 28018242 I adb     : main.cpp:63 Version 34.0.5-10900879
-04-05 10:43:36.852 90174 28018242 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-04-05 10:43:36.852 90174 28018242 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-04-05 10:43:36.852 90174 28018242 I adb     : main.cpp:63 
---- adb starting (pid 90175) ---
-04-05 10:43:36.854 90175 28018244 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-04-05 10:43:36.854 90175 28018244 I adb     : main.cpp:63 Version 34.0.5-10900879
-04-05 10:43:36.854 90175 28018244 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-04-05 10:43:36.854 90175 28018244 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-04-05 10:43:36.854 90175 28018244 I adb     : main.cpp:63 
-04-05 10:43:36.858 90175 28018253 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
-04-05 10:43:36.858 90175 28018244 I adb     : auth.cpp:416 adb_auth_init...
-04-05 10:43:36.858 90175 28018253 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-05 10:43:36.858 90175 28018253 I adb     : usb_libusb.cpp:804 device connected: 1-1
-04-05 10:43:36.858 90175 28018253 I adb     : usb_libusb.cpp:733 ignoring device usb:1-1: not an adb interface. (FindInterface)
-04-05 10:43:36.858 90175 28018253 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-05 10:43:36.858 90174 28018255 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
-04-05 10:43:36.858 90175 28018253 I adb     : usb_libusb.cpp:804 device connected: 0-1
-04-05 10:43:36.858 90174 28018255 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-05 10:43:36.858 90175 28018253 I adb     : usb_libusb.cpp:733 ignoring device usb:0-1: not an adb interface. (FindInterface)
-04-05 10:43:36.858 90174 28018255 I adb     : usb_libusb.cpp:804 device connected: 1-1
-04-05 10:43:36.858 90174 28018255 I adb     : usb_libusb.cpp:733 ignoring device usb:1-1: not an adb interface. (FindInterface)
-04-05 10:43:36.858 90174 28018255 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-05 10:43:36.858 90174 28018255 I adb     : usb_libusb.cpp:804 device connected: 0-1
-04-05 10:43:36.858 90174 28018255 I adb     : usb_libusb.cpp:733 ignoring device usb:0-1: not an adb interface. (FindInterface)
-04-05 10:43:36.860 90175 28018244 I adb     : auth.cpp:152 loaded new key from '/Users/kapaw/.android/adbkey' with fingerprint 5AD1CDF18774BA58980B06A343ECC18E140F753118DDCDBFF21E5C961500DDD8
-04-05 10:43:37.363 90174 28018242 F adb     : main.cpp:165 could not install *smartsocket* listener: Address already in use
-
-* failed to start daemon
-adb: failed to check server version: cannot connect to daemon
-]
-stdout[
-
-]
-exit code: 1
-  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00017] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg, System.Text.Encoding inputEncoding) [0x0000c] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <96672911ce664afea25a63cd59e554c0>:0 
-  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x002ae] in <96672911ce664afea25a63cd59e554c0>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
-UnityEditor.Android.TargetScanWorker:ScanSync ()
-UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
-UnityEditor.Android.TargetExtension:OnLoad ()
-UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs:126)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs Line: 126)
-
-Android Extension - Scanning For ADB Devices 881 ms
+Android Extension - Scanning For ADB Devices 3314 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.208 seconds
-Domain Reload Profiling: 1527ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  3.618 seconds
+Domain Reload Profiling: 3987ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
+		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (137ms)
-		LoadAssemblies (105ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (140ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (133ms)
-			TypeCache.Refresh (131ms)
-				TypeCache.ScanAssembly (118ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (127ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1208ms)
+	FinalizeReload (3618ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1161ms)
+		SetupLoadedEditorAssemblies (3575ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (955ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (110ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			InitializePlatformSupportModulesInManaged (3387ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -272,21 +152,7 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-Asset path could not be found for script compilation file '/Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs'
-Asset path could not be found for script compilation file '/Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs'
-Asset path could not be found for script compilation file '/Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs'
-Asset path could not be found for script compilation file '/Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs'
-Asset path could not be found for script compilation file '/Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Scripts/ControllerAnimator.cs'
-Asset path could not be found for script compilation file '/Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Scripts/ControllerInputActionManager.cs'
-Asset path could not be found for script compilation file '/Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Scripts/DestroySelf.cs'
-Asset path could not be found for script compilation file '/Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Scripts/DynamicMoveProvider.cs'
-Asset path could not be found for script compilation file '/Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Scripts/GazeInputManager.cs'
-Asset path could not be found for script compilation file '/Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Scripts/MaterialPipelineHandler.cs'
-Asset path could not be found for script compilation file '/Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Scripts/ObjectSpawner.cs'
-Asset path could not be found for script compilation file '/Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs'
-Asset path could not be found for script compilation file '/Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs'
-Asset path could not be found for script compilation file '/Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Scripts/XRPokeFollowAffordance.cs'
-- Loaded All Assemblies, in  0.760 seconds
+- Loaded All Assemblies, in  0.591 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -294,7 +160,7 @@ AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 7.24 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 4.30 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -305,9 +171,9 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 4.65 ms, found 18 plugins.
-05/04 10:43:39.868 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
-05/04 10:43:39.868 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
+Refreshing native plugins compatible for Editor in 3.76 ms, found 18 plugins.
+09/04 09:12:49.092 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+09/04 09:12:49.092 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
 [Synthetic Environments] got match open -n synth_env_server.app --args Bedroom
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -529,65 +395,65 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.243 seconds
-Domain Reload Profiling: 2002ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.863 seconds
+Domain Reload Profiling: 1453ms
+	BeginReloadAssembly (91ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (595ms)
-		LoadAssemblies (316ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (437ms)
+		LoadAssemblies (188ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (318ms)
-			TypeCache.Refresh (224ms)
-				TypeCache.ScanAssembly (198ms)
-			BuildScriptInfoCaches (68ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1243ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (187ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (863ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1124ms)
+		SetupLoadedEditorAssemblies (752ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (784ms)
-			ProcessInitializeOnLoadMethodAttributes (228ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (526ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 [OVRPlugin][INFO] UnityPluginLoad called
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 8.04 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.86 ms.
-Unloading 284 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8297 unused Assets / (7.4 MB). Loaded Objects now: 9097.
-Memory consumption went from 211.4 MB to 204.0 MB.
-Total: 14.912167 ms (FindLiveObjects: 1.036291 ms CreateObjectMapping: 0.398500 ms MarkObjects: 9.003333 ms  DeleteObjects: 4.473125 ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.99 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
+Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8319 unused Assets / (8.6 MB). Loaded Objects now: 9097.
+Memory consumption went from 211.9 MB to 203.3 MB.
+Total: 12.280167 ms (FindLiveObjects: 0.500292 ms CreateObjectMapping: 0.263125 ms MarkObjects: 6.909792 ms  DeleteObjects: 4.606500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 956227.985378 seconds.
-  path: Assets/Settings/Project Configuration/Standalone Performant Preset.asset
-  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Project Configuration/Standalone Performant Preset.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cb0e052885f69b7fa649c240bf3d443') in 0.028954167 seconds
+  Time since last request: 1095232.277718 seconds.
+  path: Assets/Henry/Scripts/CardAction.cs
+  artifactKey: Guid(367fe2e0922fca64a8bd9c44ce70faa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Henry/Scripts/CardAction.cs using Guid(367fe2e0922fca64a8bd9c44ce70faa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdbe7da1f239e3791c701d987801e04e') in 0.01585275 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x34118b000 may have been prematurely finalized
+Thread 0x348f47000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.699 seconds
+- Loaded All Assemblies, in  0.814 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -595,7 +461,7 @@ AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 4.00 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 5.77 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -605,7 +471,7 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 4.10 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 9.60 ms, found 18 plugins.
 [Synthetic Environments] got match open -n synth_env_server.app --args Bedroom
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -824,61 +690,55 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.994 seconds
-Domain Reload Profiling: 1695ms
-	BeginReloadAssembly (216ms)
+- Finished resetting the current domain, in  0.952 seconds
+Domain Reload Profiling: 1769ms
+	BeginReloadAssembly (232ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (105ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (423ms)
-		LoadAssemblies (247ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (520ms)
+		LoadAssemblies (333ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (222ms)
-			TypeCache.Refresh (17ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (28ms)
 				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (184ms)
+			BuildScriptInfoCaches (196ms)
 			ResolveRequiredComponents (18ms)
-	FinalizeReload (994ms)
+	FinalizeReload (953ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (809ms)
+		SetupLoadedEditorAssemblies (757ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (560ms)
-			ProcessInitializeOnLoadMethodAttributes (130ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (515ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.28 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.53 ms.
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 5.51 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
 Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8317 unused Assets / (7.8 MB). Loaded Objects now: 9115.
-Memory consumption went from 227.2 MB to 219.4 MB.
-Total: 11.728042 ms (FindLiveObjects: 0.400625 ms CreateObjectMapping: 0.259000 ms MarkObjects: 7.259333 ms  DeleteObjects: 3.808250 ms)
+Unloading 8317 unused Assets / (8.3 MB). Loaded Objects now: 9114.
+Memory consumption went from 226.6 MB to 218.3 MB.
+Total: 12.533625 ms (FindLiveObjects: 0.464917 ms CreateObjectMapping: 0.304250 ms MarkObjects: 7.787625 ms  DeleteObjects: 3.976125 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
 Begin MonoManager ReloadAssembly
-Thread 0x34134b000 may have been prematurely finalized
+Thread 0x321153000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.818 seconds
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
+- Loaded All Assemblies, in  0.795 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -886,19 +746,17 @@ AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 4.75 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 3.59 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 5.16 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 3.84 ms, found 18 plugins.
 [Synthetic Environments] got match open -n synth_env_server.app --args Bedroom
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -1117,86 +975,134 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.951 seconds
-Domain Reload Profiling: 1771ms
-	BeginReloadAssembly (253ms)
+- Finished resetting the current domain, in  0.923 seconds
+Domain Reload Profiling: 1721ms
+	BeginReloadAssembly (218ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (121ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (510ms)
-		LoadAssemblies (346ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (520ms)
+		LoadAssemblies (352ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (232ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (2ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (1ms)
 			BuildScriptInfoCaches (192ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (951ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (923ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (776ms)
+		SetupLoadedEditorAssemblies (747ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (119ms)
-			ProcessInitializeOnLoadAttributes (509ms)
-			ProcessInitializeOnLoadMethodAttributes (133ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (518ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+		AwakeInstancesAfterBackupRestoration (6ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.77 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.56 ms.
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 5.50 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 1.86 ms.
 Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8317 unused Assets / (7.4 MB). Loaded Objects now: 9118.
-Memory consumption went from 225.1 MB to 217.7 MB.
-Total: 11.746292 ms (FindLiveObjects: 0.427416 ms CreateObjectMapping: 0.255167 ms MarkObjects: 7.446958 ms  DeleteObjects: 3.612458 ms)
+Unloading 8317 unused Assets / (8.4 MB). Loaded Objects now: 9117.
+Memory consumption went from 225.0 MB to 216.6 MB.
+Total: 11.627459 ms (FindLiveObjects: 0.481959 ms CreateObjectMapping: 0.213416 ms MarkObjects: 6.623125 ms  DeleteObjects: 4.308208 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 442.582446 seconds.
-  path: Assets/Kapaw/Scene/New SceneTemplate.scenetemplate
-  artifactKey: Guid(ab70b484bc3554a90b471daa43866146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Scene/New SceneTemplate.scenetemplate using Guid(ab70b484bc3554a90b471daa43866146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '447bea344dd8e8a56610deaf23bd5ed1') in 0.074761833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.290474 seconds.
-  path: Assets/Kapaw/Scene/Kapaw_Sandbox.unity
-  artifactKey: Guid(533e95b8f08eb4e9bb42c6fa12c06f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Scene/Kapaw_Sandbox.unity using Guid(533e95b8f08eb4e9bb42c6fa12c06f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f80dfef29b9fee9e37e68839310dd344') in 0.001054375 seconds
+  Time since last request: 1194.898839 seconds.
+  path: Assets/MRTemplateAssets/Prefabs
+  artifactKey: Guid(4d7470137441a804596b8159037b61c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTemplateAssets/Prefabs using Guid(4d7470137441a804596b8159037b61c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '015cc61a68c73f85bdffd66d9ca2ce52') in 0.018756542 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.603585 seconds.
-  path: Assets/Kapaw/Scene/Kapaw_Sandbox 1.unity
-  artifactKey: Guid(8379f7324231d4c328a1d0704b4f253e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Scene/Kapaw_Sandbox 1.unity using Guid(8379f7324231d4c328a1d0704b4f253e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd200e42b3323ed0fe7fff6c43c37ff5') in 0.000782625 seconds
+  Time since last request: 9.718648 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(55daccc09a3b69647bbab145b54a3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(55daccc09a3b69647bbab145b54a3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fbe4b86d7e802a32b916ef13dea33e0') in 0.000469792 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1494.688873 seconds.
-  path: Assets/Kapaw/Prefabs/Player.prefab
-  artifactKey: Guid(0e75194ad122245fb99e2343ed65d816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Prefabs/Player.prefab using Guid(0e75194ad122245fb99e2343ed65d816) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebe1b9db5c8f512a0e28b2b65ae7acf6') in 1.411746333 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 2789
+  Time since last request: 85.024004 seconds.
+  path: Assets/MRTemplateAssets/Scripts
+  artifactKey: Guid(03e87cce610460f478bd185a72331825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTemplateAssets/Scripts using Guid(03e87cce610460f478bd185a72331825) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e91b4b84a3b46d23ee5d6bb086b0e952') in 0.001432708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.474375 seconds.
-  path: Assets/Kapaw/Scene/Kapaw_HandsDemoScene 1.unity
-  artifactKey: Guid(95c89e286cf7045a3b5cec15c72729e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Scene/Kapaw_HandsDemoScene 1.unity using Guid(95c89e286cf7045a3b5cec15c72729e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1acad77df188b236aa3c5f58b89c99d5') in 0.001445084 seconds
+  Time since last request: 2.893703 seconds.
+  path: Assets/MRTemplateAssets/Tutorial
+  artifactKey: Guid(4aa865ce879c443d3b970d28b0499121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTemplateAssets/Tutorial using Guid(4aa865ce879c443d3b970d28b0499121) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3df2fc1567504ee83dbd7def5dd1c2f6') in 0.000529041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.767686 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8
+  artifactKey: Guid(addad1f72586548cc8acd0222de79f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8 using Guid(addad1f72586548cc8acd0222de79f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f06a69a08f183ef43f8e24754dcb9567') in 0.000435625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.875589 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets
+  artifactKey: Guid(82dfa9ddf2320409e8dab8b5a239302b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets using Guid(82dfa9ddf2320409e8dab8b5a239302b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46d4b832e3a2eb6912d24a8531661045') in 0.000423416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.452465 seconds.
+  path: Assets/Samples/XR Hands/1.5.0
+  artifactKey: Guid(c98f5cb3de6c66f48aee6718a885c89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.5.0 using Guid(c98f5cb3de6c66f48aee6718a885c89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '710838b75e0326a9e9b9a55e9138b1cf') in 0.000390708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.836890 seconds.
+  path: Assets/Samples/XR Hands/1.5.0/HandVisualizer
+  artifactKey: Guid(3b30ee353ce0fbc4480dce57a886891f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.5.0/HandVisualizer using Guid(3b30ee353ce0fbc4480dce57a886891f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08fc6068cf7650d263eb421b7b9fc46c') in 0.000449916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.999559 seconds.
+  path: Assets/Samples/XR Hands/1.5.0/HandVisualizer/HandVisualizer.unity
+  artifactKey: Guid(ab7acf0d9677fbe4db51bc36647d4fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.5.0/HandVisualizer/HandVisualizer.unity using Guid(ab7acf0d9677fbe4db51bc36647d4fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cec5098d869991eba67b73db8e8a7b4c') in 0.000358584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.321770 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(d6f6662c45c7d0e4b8c7b809774776dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(d6f6662c45c7d0e4b8c7b809774776dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fbef67dd7e48b49ba2e2f1985d523f0') in 0.000714583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.238084 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/DemoScene.unity
+  artifactKey: Guid(319dafa5c80f29f428dc1e0d03f04177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/DemoScene.unity using Guid(319dafa5c80f29f428dc1e0d03f04177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80eefae236bbd5837eb40e7acfedc971') in 0.008866708 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
