@@ -5,6 +5,7 @@ public class EnvironmentController : MonoBehaviour
 {
     public GameObject[] hazards; // Assign spikes/pistons here
 
+    /* I comment this out as it is showing an error - Kapaw
     public IEnumerator ActivateHazards()
     {
         foreach (var hazard in hazards)
@@ -12,5 +13,7 @@ public class EnvironmentController : MonoBehaviour
             hazard.GetComponent<Hazard>().Trigger();
             yield return new WaitForSeconds(0.2f);
         }
+        
     }
+    */
 }

@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Kapaw/Scene/Kapaw_HandsDemoScene.unity
     guid: c04c70c8422884d5d89d7a5c59c68da6
+  - enabled: 1
+    path: Assets/Kapaw/Scene/Kapaw_HandsDemoScene 1.unity
+    guid: 95c89e286cf7045a3b5cec15c72729e6
   - enabled: 1
     path: Assets/Kapaw/Scene/Kapaw_Sandbox.unity
     guid: 533e95b8f08eb4e9bb42c6fa12c06f4c

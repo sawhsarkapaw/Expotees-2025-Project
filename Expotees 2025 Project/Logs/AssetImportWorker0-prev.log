@@ -1,29 +1,36 @@
+Unity Editor version:    6000.0.33f1 (433b0a79340b)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.3.2 (Build 24D81)
+Darwin version:          24.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '6000.0/staging' branch; Version is '6000.0.33f1 (433b0a79340b) revision 4406026'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32672 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-D:\Program Files\Unity\6000.0.33f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/GitHub Files/Expotees-2025-Project/Expotees 2025 Project
+/Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63708
+64615
 -job-worker-count
-5
+4
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: D:/GitHub Files/Expotees-2025-Project/Expotees 2025 Project
-D:/GitHub Files/Expotees-2025-Project/Expotees 2025 Project
+Successfully changed project path to: /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project
+/Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,15 +66,13 @@ D:/GitHub Files/Expotees-2025-Project/Expotees 2025 Project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22244]  Target information:
+Player connection [8610515008]  Target information:
 
-Player connection [22244]  * "[IP] 192.168.0.45 [Port] 0 [Flags] 2 [Guid] 3420511027 [EditorId] 3420511027 [Version] 1048832 [Id] WindowsEditor(7,henry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8610515008]  * "[IP] 172.16.6.34 [Port] 0 [Flags] 2 [Guid] 1162176717 [EditorId] 1162176717 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [22244]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3420511027 [EditorId] 3420511027 [Version] 1048832 [Id] WindowsEditor(7,henry) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [22244] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [22244] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [8610515008] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8610515008] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 4
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
@@ -77,67 +82,65 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 16.82 ms, found 19 plugins.
-Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
-Preloading 2 native plugins for Editor in 1.67 ms.
+Refreshing native plugins compatible for Editor in 13.53 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 2.65 ms.
 Initialize engine version: 6000.0.33f1 (433b0a79340b)
-[Subsystems] Discovering subsystems at path D:/Program Files/Unity/6000.0.33f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GitHub Files/Expotees-2025-Project/Expotees 2025 Project/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
-    Vendor:   NVIDIA
-    VRAM:     8018 MB
-    Driver:   32.0.15.6636
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = 'D:/Program Files/Unity/6000.0.33f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files/Unity/6000.0.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Program Files/Unity/6000.0.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56419
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Program Files/Unity/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Program Files/Unity/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: D:/Program Files/Unity/6000.0.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.004149 seconds.
-- Loaded All Assemblies, in  0.375 seconds
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.006889 seconds.
+- Loaded All Assemblies, in  0.289 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 328 ms
-Native extension for WindowsStandalone target not found
+Android Extension - Scanning For ADB Devices 86 ms
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.651 seconds
-Domain Reload Profiling: 1026ms
-	BeginReloadAssembly (127ms)
+- Finished resetting the current domain, in  0.370 seconds
+Domain Reload Profiling: 659ms
+	BeginReloadAssembly (89ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (151ms)
-		LoadAssemblies (127ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (89ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (148ms)
-			TypeCache.Refresh (146ms)
-				TypeCache.ScanAssembly (135ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (108ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (651ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (370ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (621ms)
+		SetupLoadedEditorAssemblies (326ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (424ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (99ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			InitializePlatformSupportModulesInManaged (153ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -146,7 +149,8 @@ Domain Reload Profiling: 1026ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.912 seconds
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.747 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -154,9 +158,9 @@ AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 11.80 ms, found 19 plugins.
+Refreshing native plugins compatible for Editor in 5.39 ms, found 18 plugins.
 Native extension for Android target not found
-Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -165,7 +169,196 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 10.87 ms, found 19 plugins.
+Refreshing native plugins compatible for Editor in 3.91 ms, found 18 plugins.
+05/04 10:33:23.286 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+05/04 10:33:23.286 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
+[Synthetic Environments] got match open -n synth_env_server.app --args Bedroom
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server.app --args GameRoom
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server.app --args LivingRoom
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom2_3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom2_4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom5_6
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom5_1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom3_1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom1_2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom1_1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom1_4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -173,23 +366,25 @@ Refreshing native plugins compatible for Editor in 10.87 ms, found 19 plugins.
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:46 
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:67 
-  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in D:\GitHub Files\Expotees-2025-Project\Expotees 2025 Project\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs:34 
    --- End of inner exception stack trace ---
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
    --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <18226ebcc7724db583d19c0aeb6444e9>:0 
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
 UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
 
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -198,1062 +393,532 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.268 seconds
-Domain Reload Profiling: 2178ms
-	BeginReloadAssembly (166ms)
+- Finished resetting the current domain, in  0.959 seconds
+Domain Reload Profiling: 1700ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (655ms)
-		LoadAssemblies (347ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (587ms)
+		LoadAssemblies (342ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (407ms)
-			TypeCache.Refresh (256ms)
-				TypeCache.ScanAssembly (234ms)
-			BuildScriptInfoCaches (123ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (1269ms)
+		AnalyzeDomain (288ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (184ms)
+			BuildScriptInfoCaches (60ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (959ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1112ms)
+		SetupLoadedEditorAssemblies (849ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (772ms)
-			ProcessInitializeOnLoadMethodAttributes (185ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (595ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+		AwakeInstancesAfterBackupRestoration (2ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 13.65 ms, found 19 plugins.
-Preloading 2 native plugins for Editor in 0.06 ms.
-Unloading 303 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8312 unused Assets / (7.9 MB). Loaded Objects now: 9087.
-Memory consumption went from 219.4 MB to 211.5 MB.
-Total: 20.675700 ms (FindLiveObjects: 1.033600 ms CreateObjectMapping: 1.164000 ms MarkObjects: 11.233500 ms  DeleteObjects: 7.243200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1270346.191433 seconds.
-  path: Assets/Kapaw/Prefabs
-  artifactKey: Guid(f087db2099cdb4ca2a4b0b8aaccf9e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Prefabs using Guid(f087db2099cdb4ca2a4b0b8aaccf9e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89fdedac394e2b64d2e1ac1dbc4dddee') in 0.0125412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Kapaw/Scene
-  artifactKey: Guid(c2e72236f595b462c94f6a1635c7fec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Scene using Guid(c2e72236f595b462c94f6a1635c7fec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2e75f8c70847013ebbef48db3cbdae9') in 0.000432 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.206776 seconds.
-  path: Assets/Kapaw/Scene/Kapaw_HandsDemoScene.unity
-  artifactKey: Guid(c04c70c8422884d5d89d7a5c59c68da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Scene/Kapaw_HandsDemoScene.unity using Guid(c04c70c8422884d5d89d7a5c59c68da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3387d491e3612289cc1f29b4954f99ed') in 0.0004279 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.890711 seconds.
-  path: Assets/Kapaw/Scripts
-  artifactKey: Guid(c4b0b9a91b43e4cdf8be62d9731b66d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Scripts using Guid(c4b0b9a91b43e4cdf8be62d9731b66d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5014d9c28d29d6394111574330383eb') in 0.0004133 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.652681 seconds.
-  path: Assets/Kapaw/Scripts/ProgrammingSocketHandler.cs
-  artifactKey: Guid(81d166e17b3474cb79c7d836eac45fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Scripts/ProgrammingSocketHandler.cs using Guid(81d166e17b3474cb79c7d836eac45fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aca91cdb24789598960593f5116559aa') in 0.0004151 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.749768 seconds.
-  path: Assets/Kapaw/Scripts/CubeMove.cs
-  artifactKey: Guid(ba8f491f8deb64e89ad4da896509806e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kapaw/Scripts/CubeMove.cs using Guid(ba8f491f8deb64e89ad4da896509806e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcc9061bc453e26ddceec36c321c34b6') in 0.0004211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.715908 seconds.
-  path: Assets/Assets/Environment
-  artifactKey: Guid(02a2f38ef83b74dfd820083630fb0162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment using Guid(02a2f38ef83b74dfd820083630fb0162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2510a363d06600a319042f9fdf1d109') in 0.0004782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.434933 seconds.
-  path: Assets/Assets/Environment/FBX format
-  artifactKey: Guid(ca1303d7118934d4ab23c84813a54494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format using Guid(ca1303d7118934d4ab23c84813a54494) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96312b1b429b3a83c401f0833f8389d6') in 0.0004251 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.131424 seconds.
-  path: Assets/Assets/Environment/FBX format/arrow.fbx
-  artifactKey: Guid(78a31409bc2394622bcec4b012f24114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/arrow.fbx using Guid(78a31409bc2394622bcec4b012f24114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aea2a91e68854d298f61e70fffafc9a') in 0.7952645 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Assets/Environment/FBX format/crate.fbx
-  artifactKey: Guid(5b7a7d0ec762147e2ad18240e5f6ee6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/crate.fbx using Guid(5b7a7d0ec762147e2ad18240e5f6ee6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f1e6ab265424ef1faf5afc0dcbd9277') in 0.0217107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Assets/Environment/FBX format/door-large-open.fbx
-  artifactKey: Guid(69c225fc0274f4d67b8036728f6947e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/door-large-open.fbx using Guid(69c225fc0274f4d67b8036728f6947e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1f676db8b25aa6183f8e3df2a1dbe70') in 0.0204004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-large-tall.fbx
-  artifactKey: Guid(ce7c60fc02bfb468d80accf975ece295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-large-tall.fbx using Guid(ce7c60fc02bfb468d80accf975ece295) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d37443d34b0d734e89c9cad77726e98') in 0.0206149 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-narrow.fbx
-  artifactKey: Guid(07002370bbf814b39871388054a9997a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-narrow.fbx using Guid(07002370bbf814b39871388054a9997a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fad485d4cba5ea5a1764fbf0f8973d84') in 0.0227298 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/Environment/FBX format/coin-silver.fbx
-  artifactKey: Guid(5fd05bc14360a423d92482ee14e8534b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/coin-silver.fbx using Guid(5fd05bc14360a423d92482ee14e8534b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f7931bf4e1cb23aa008eeb238e52fef') in 0.0203585 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-large-slope-narrow.fbx
-  artifactKey: Guid(261f5aa08521e4421ac1a1b3999a7ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-large-slope-narrow.fbx using Guid(261f5aa08521e4421ac1a1b3999a7ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dea9fb9bca73a95f262e2a73841e905') in 0.0210939 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Environment/FBX format/crate-item-strong.fbx
-  artifactKey: Guid(e71fa48ce1bcf47dea8f6185addf498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/crate-item-strong.fbx using Guid(e71fa48ce1bcf47dea8f6185addf498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c1bbe1605f76b93cc5053ad6771b218') in 0.0204074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Assets/Environment/FBX format/fence-corner.fbx
-  artifactKey: Guid(eb13081b9e3c94e2abbd7202fbb2d92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/fence-corner.fbx using Guid(eb13081b9e3c94e2abbd7202fbb2d92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cfe89c9faed8384da8578bb6a42701d') in 0.0202902 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-corner-overhang-low.fbx
-  artifactKey: Guid(b010c055ec64740fb8e0231ec9540b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-corner-overhang-low.fbx using Guid(b010c055ec64740fb8e0231ec9540b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25ef6b490ba27a1d0e35ccf9b19d9150') in 0.01997 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-low-narrow.fbx
-  artifactKey: Guid(4fccadd7830ca4770b2b855f0d6a8f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-low-narrow.fbx using Guid(4fccadd7830ca4770b2b855f0d6a8f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b3f3196db09c0a44a5ff5135ee08067') in 0.020635 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-low-hexagon.fbx
-  artifactKey: Guid(89899d03fb22049669e1fd4475f964a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-low-hexagon.fbx using Guid(89899d03fb22049669e1fd4475f964a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67883066678687159fdade04daaf1ef4') in 0.0190633 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Environment/FBX format/button-round.fbx
-  artifactKey: Guid(a687070980fd8407eb2ea87f7d8ff254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/button-round.fbx using Guid(a687070980fd8407eb2ea87f7d8ff254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42582d5782e9e602f6e5a190c07a27f9') in 0.0270628 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/Environment/FBX format/fence-broken.fbx
-  artifactKey: Guid(d46c11bb755784d75a067b74623f407b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/fence-broken.fbx using Guid(d46c11bb755784d75a067b74623f407b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69cc3fca40b946538b5ac2a3bc2b18fe') in 0.0191279 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Assets/Environment/FBX format/door-open.fbx
-  artifactKey: Guid(3ec40d1a98269459f898f315d4090a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/door-open.fbx using Guid(3ec40d1a98269459f898f315d4090a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d2c0e54bea41a181446ed442ced725c') in 0.0196936 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-low-hexagon.fbx
-  artifactKey: Guid(73db2644dec9e477ca4a6c2a416e7c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-low-hexagon.fbx using Guid(73db2644dec9e477ca4a6c2a416e7c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80c33cf7d3fb1a9398cc07aed4232ef4') in 0.0194925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-large-slope-steep.fbx
-  artifactKey: Guid(da6fefae573854c3facfc42ddac01f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-large-slope-steep.fbx using Guid(da6fefae573854c3facfc42ddac01f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1bdb5959d2479f0e402d99974aed48a') in 0.0192973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/Environment/FBX format/button-square.fbx
-  artifactKey: Guid(0e0a1648f4dd743b78ac866af0f4682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/button-square.fbx using Guid(0e0a1648f4dd743b78ac866af0f4682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88b85a9d3303e534d8d7c4120508a955') in 0.0257675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-curve-half.fbx
-  artifactKey: Guid(7de880189582c40b0bd8c9ddccf79dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-curve-half.fbx using Guid(7de880189582c40b0bd8c9ddccf79dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aacfd0f724f9a2e0e8b446b060326498') in 0.0183398 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Environment/FBX format/block-moving-blue.fbx
-  artifactKey: Guid(9b360e217eff44696aabef21af7ae2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-moving-blue.fbx using Guid(9b360e217eff44696aabef21af7ae2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06d5ca103f7f76fd1972614df6dfda4e') in 0.0201496 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-curve-low.fbx
-  artifactKey: Guid(887eae7ef3e97494592816f7709069b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-curve-low.fbx using Guid(887eae7ef3e97494592816f7709069b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42985420352f1c8eb43031d2b0c71dc9') in 0.0208361 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Assets/Environment/FBX format/fence-corner-curved.fbx
-  artifactKey: Guid(b1ecf0f86e97f47a6a6acbf04e03a154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/fence-corner-curved.fbx using Guid(b1ecf0f86e97f47a6a6acbf04e03a154) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07bd55b1018410aa00685096fa7e072d') in 0.02224 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-large-slope-steep-narrow.fbx
-  artifactKey: Guid(61be24c603ac844dbbc4b103c1665bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-large-slope-steep-narrow.fbx using Guid(61be24c603ac844dbbc4b103c1665bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6db953279fedf30ddff537a56992df6') in 0.0191227 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-low-hexagon.fbx
-  artifactKey: Guid(68fd72f5bfb3c450b98e5e25a4355d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-low-hexagon.fbx using Guid(68fd72f5bfb3c450b98e5e25a4355d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a40b70a66706d2dd6631ebbbadcbfb6') in 0.0201076 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Environment/FBX format/flowers.fbx
-  artifactKey: Guid(4f4f77573a7de4f05badb01c814eb4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/flowers.fbx using Guid(4f4f77573a7de4f05badb01c814eb4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b36f17cf2fb2ff38231689c6c656df68') in 0.0338809 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-low-hexagon.fbx
-  artifactKey: Guid(282d407d8eccb42dd8a2099ce90c39fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-low-hexagon.fbx using Guid(282d407d8eccb42dd8a2099ce90c39fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e7cd872ddabd7eaa51426ff179e4c10') in 0.020135 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-large.fbx
-  artifactKey: Guid(c8dfe9d96cf504944bae1c43f3653ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-large.fbx using Guid(c8dfe9d96cf504944bae1c43f3653ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf25c558d514519fda4df8cb86aacd6e') in 0.0212748 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-narrow.fbx
-  artifactKey: Guid(f5e67a34bedf7447c8bf9251cedc709d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-narrow.fbx using Guid(f5e67a34bedf7447c8bf9251cedc709d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24c9677ea461deaab548770815f74205') in 0.0223484 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-low-long.fbx
-  artifactKey: Guid(b9d5f347d36c944218d308a3220e2ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-low-long.fbx using Guid(b9d5f347d36c944218d308a3220e2ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8355a57240e60c766bea4dc5ace90811') in 0.0178958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-hexagon.fbx
-  artifactKey: Guid(e366b993da6b3465a9fb3ba56f5ad6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-hexagon.fbx using Guid(e366b993da6b3465a9fb3ba56f5ad6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cef46ce29a3402d949f2cdde1a99938') in 0.0191895 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-corner.fbx
-  artifactKey: Guid(1673682b7a814462f8545d0d43a01ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-corner.fbx using Guid(1673682b7a814462f8545d0d43a01ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '680946d3d7dd013628cd51eb7bf8c820') in 0.0199134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-edge.fbx
-  artifactKey: Guid(7b4b7633529544d92a6392cafc9c9665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-edge.fbx using Guid(7b4b7633529544d92a6392cafc9c9665) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34305a91648c7fcf238e896ea87f0cd9') in 0.0192159 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-low-large.fbx
-  artifactKey: Guid(265c7f6101c82499ebbf23474d172387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-low-large.fbx using Guid(265c7f6101c82499ebbf23474d172387) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8034f390315993b9ff338deb6cc1fa57') in 0.0202659 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-large.fbx
-  artifactKey: Guid(887796a6315a24083b5987db32aecde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-large.fbx using Guid(887796a6315a24083b5987db32aecde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e042250234633a07f808d8f1781a8e30') in 0.0186854 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-hexagon.fbx
-  artifactKey: Guid(1bd89c8f6b3354bff8271f5e4fba10f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-hexagon.fbx using Guid(1bd89c8f6b3354bff8271f5e4fba10f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8995f2bcdc7f3dce1ee8be2ffb40cfbb') in 0.0199946 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-large-slope-narrow.fbx
-  artifactKey: Guid(de46a0f5cedea4a61a176bf270053732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-large-slope-narrow.fbx using Guid(de46a0f5cedea4a61a176bf270053732) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d474d8750e558f8184ed4479e853d19') in 0.0209626 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-narrow.fbx
-  artifactKey: Guid(f9504e9df2cd046ad94ddab125e40385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-narrow.fbx using Guid(f9504e9df2cd046ad94ddab125e40385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b81a03d5322d1a99238bbac18de40ba5') in 0.0191224 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-large-slope.fbx
-  artifactKey: Guid(21e6694d34f1340dab706777616571be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-large-slope.fbx using Guid(21e6694d34f1340dab706777616571be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6dd972f4cba21f7a39b207da89ce564') in 0.0188664 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-low-large.fbx
-  artifactKey: Guid(e45aad7300d7e4660a88797e573b20dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-low-large.fbx using Guid(e45aad7300d7e4660a88797e573b20dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b9211141b9b6679033167606661acbe') in 0.0200659 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-low-narrow.fbx
-  artifactKey: Guid(c04662d055b08465a9369d1579ae3471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-low-narrow.fbx using Guid(c04662d055b08465a9369d1579ae3471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd971ea79df3619067877fe0630b0cd65') in 0.0210845 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-long.fbx
-  artifactKey: Guid(4944774e1a9d849ad8a3bab3f8b1c9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-long.fbx using Guid(4944774e1a9d849ad8a3bab3f8b1c9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7c65f906ce5d0e7a678afe5f8ed159f') in 0.0194092 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-large-slope-steep.fbx
-  artifactKey: Guid(5ebeab33055a84857adcaf8cde26173a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-large-slope-steep.fbx using Guid(5ebeab33055a84857adcaf8cde26173a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c857e35cc11c836a4443f63fd7db79c5') in 0.0206973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Environment/FBX format/block-moving.fbx
-  artifactKey: Guid(56f05220dcd3f49128b82590d7696977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-moving.fbx using Guid(56f05220dcd3f49128b82590d7696977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed1293ea8b2935ee4395918e9d6cc1c3') in 0.0207519 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-large-slope-narrow.fbx
-  artifactKey: Guid(4a73235d1ea104da29c46a7d68c91126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-large-slope-narrow.fbx using Guid(4a73235d1ea104da29c46a7d68c91126) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b1a5d051afdb7170fe1bedb5a90a7ce') in 0.0198773 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Assets/Environment/FBX format/door-rotate.fbx
-  artifactKey: Guid(3322252653c4842169b8ee0b463639e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/door-rotate.fbx using Guid(3322252653c4842169b8ee0b463639e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed428f6dfa991487dcb8cf8c1d91c0fc') in 0.0241752 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-hexagon.fbx
-  artifactKey: Guid(28e5bdc3a9cb24904a28754e3e6dcec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-hexagon.fbx using Guid(28e5bdc3a9cb24904a28754e3e6dcec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93d9f7a97d5ec720b38d8d68d2d98774') in 0.0201852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/Environment/FBX format/flag.fbx
-  artifactKey: Guid(e68ae7987aa4e4969880da0c4ac83e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/flag.fbx using Guid(e68ae7987aa4e4969880da0c4ac83e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ad251a9735bd468a374cd0cfc484f78') in 0.0203855 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-overhang-long.fbx
-  artifactKey: Guid(0f179b15bcfbe4d0db018c29b9fad4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-overhang-long.fbx using Guid(0f179b15bcfbe4d0db018c29b9fad4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9c19b3afb0a8dc4eb78922a5a9a5d50') in 0.0197538 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-large-tall.fbx
-  artifactKey: Guid(b0cfaed8297594b46a4e676aa170d3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-large-tall.fbx using Guid(b0cfaed8297594b46a4e676aa170d3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '888a2a548a38ac2ce5dffc9065dadcd9') in 0.0213651 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-overhang-corner.fbx
-  artifactKey: Guid(693cecdd944e443278f1103e9add9fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-overhang-corner.fbx using Guid(693cecdd944e443278f1103e9add9fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03d2a51d6d608ca3999959de8ec40895') in 0.0215049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass-low.fbx
-  artifactKey: Guid(0c80d438f1823459e8eceb0e9d676163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass-low.fbx using Guid(0c80d438f1823459e8eceb0e9d676163) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35c2c2d582f2aba8107c4b3fea8dee99') in 0.0206521 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/Environment/FBX format/block-grass.fbx
-  artifactKey: Guid(886bd9c0bee43475f990f62dbb100c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-grass.fbx using Guid(886bd9c0bee43475f990f62dbb100c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '264d2c2b826bcd944d30eb05e84eb6b2') in 0.0210024 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Assets/Environment/FBX format/fence-straight.fbx
-  artifactKey: Guid(2b81f984e1f804658812a201fbfa460d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/fence-straight.fbx using Guid(2b81f984e1f804658812a201fbfa460d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db05ad9e4fe1823353ce35559a6a45bd') in 0.0203562 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/Environment/FBX format/block-snow-low.fbx
-  artifactKey: Guid(2e69ae22bd6f140a79603a65fc0d7a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/block-snow-low.fbx using Guid(2e69ae22bd6f140a79603a65fc0d7a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3a97cf9f65e24c1a5bfecf9e58decb') in 0.0208419 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Environment/FBX format/crate-item.fbx
-  artifactKey: Guid(cf0b10e115a2f41fa81a825ce1183ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/crate-item.fbx using Guid(cf0b10e115a2f41fa81a825ce1183ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1180b1a23c8bf2f152da2969d32b1a0f') in 0.0201735 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.590275 seconds.
-  path: Assets/Assets/Environment/FBX format/grass.fbx
-  artifactKey: Guid(9ef01aed6bd6f4fe7870594ae71fd8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/grass.fbx using Guid(9ef01aed6bd6f4fe7870594ae71fd8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c0288218440dcbcc96d9cc98a4f0c42') in 0.0206944 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Environment/FBX format/key.fbx
-  artifactKey: Guid(a6901d31c688d4530ac1d61f13990681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/key.fbx using Guid(a6901d31c688d4530ac1d61f13990681) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '463eb71b63f9045963988acb9db40a2c') in 0.0224502 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Environment/FBX format/ladder-broken.fbx
-  artifactKey: Guid(86ac469a722a34c55a2acb9936dce0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/ladder-broken.fbx using Guid(86ac469a722a34c55a2acb9936dce0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '648cbc190ca22062558220b2a1b48a41') in 0.0201493 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Assets/Environment/FBX format/ladder-long.fbx
-  artifactKey: Guid(67f730bd281964946a36c189b67fef77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/ladder-long.fbx using Guid(67f730bd281964946a36c189b67fef77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96bbb5ec3e58819b1cf13a03e7b66ee6') in 0.0235683 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Assets/Environment/FBX format/hedge.fbx
-  artifactKey: Guid(2c9709f3613a142b298ded9427256f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/hedge.fbx using Guid(2c9709f3613a142b298ded9427256f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '640aa9006f54d1d10dffb9a075b94220') in 0.0214999 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.537770 seconds.
-  path: Assets/Assets/Environment/FBX format/lock.fbx
-  artifactKey: Guid(a1e67dc6ce6924ccdaa2be7c5f5166a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/lock.fbx using Guid(a1e67dc6ce6924ccdaa2be7c5f5166a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c02dcc15c555688cba6a70461e2eb8be') in 0.0202874 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Environment/FBX format/trap-spikes.fbx
-  artifactKey: Guid(9e3821caff07a484f854313427ab99a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/trap-spikes.fbx using Guid(9e3821caff07a484f854313427ab99a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b710f0dc37c9160de1e496885ffb12ad') in 0.0242734 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Environment/FBX format/rocks.fbx
-  artifactKey: Guid(4253a48452d66412683be6cb700f7a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/rocks.fbx using Guid(4253a48452d66412683be6cb700f7a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de2c2cd636ec01276156dfd80789159b') in 0.0193066 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Environment/FBX format/poles.fbx
-  artifactKey: Guid(c29a061d417934a8a8c2bc5de12f3c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/poles.fbx using Guid(c29a061d417934a8a8c2bc5de12f3c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '453167ff8c01eebd30aebbec24c17020') in 0.0181314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Assets/Environment/FBX format/stones.fbx
-  artifactKey: Guid(fd8eafda3b5e3469eb1d91c029fdf71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/stones.fbx using Guid(fd8eafda3b5e3469eb1d91c029fdf71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c60ce57ee3a221f82eb66f57c13de43') in 0.0198583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Assets/Environment/FBX format/saw.fbx
-  artifactKey: Guid(af7bd96e440744918a5b74372285ec58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/saw.fbx using Guid(af7bd96e440744918a5b74372285ec58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8ea894abb4f52b4a6bdfee6646c2908') in 0.0268383 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assets/Environment/FBX format/platform-fortified.fbx
-  artifactKey: Guid(ded29b3cc36dc493983cc8e7f231e0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/platform-fortified.fbx using Guid(ded29b3cc36dc493983cc8e7f231e0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b2480c81b34a83a5962b25ec9476d82') in 0.0180882 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.783630 seconds.
-  path: Assets/Assets/Environment/FBX format/trap-spikes-large.fbx
-  artifactKey: Guid(e478c3d4f54a94a768daa6c33b3bb11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/trap-spikes-large.fbx using Guid(e478c3d4f54a94a768daa6c33b3bb11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81e09c4df3a0ea4c6e4d8070d43da805') in 0.0281686 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/Environment/FBX format/tree-pine-small.fbx
-  artifactKey: Guid(7e3f52b60cb53496892f82f024fe2981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/tree-pine-small.fbx using Guid(7e3f52b60cb53496892f82f024fe2981) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f5e8afe0a7e37bc27cf79d83387ec1b') in 0.0197649 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Assets/Environment/FBX format/tree-pine.fbx
-  artifactKey: Guid(bd58ca87ae7684c4197a91e244a01da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/tree-pine.fbx using Guid(bd58ca87ae7684c4197a91e244a01da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a3bf4cc0269494e28ee6b4e2182fba4') in 0.0216477 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Assets/Environment/FBX format/tree-pine-snow-small.fbx
-  artifactKey: Guid(592f14d12c1f44fa08c38e546f69e144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/FBX format/tree-pine-snow-small.fbx using Guid(592f14d12c1f44fa08c38e546f69e144) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80d5b981bf272d5884e18896552b655f') in 0.0218935 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.467478 seconds.
-  path: Assets/Henry/block-grass.fbx
-  artifactKey: Guid(bb64b6c062dcf3f44be87bd4c35291b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/block-grass.fbx using Guid(bb64b6c062dcf3f44be87bd4c35291b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f41e54bf955f09f71f62109ddefc0237') in 0.0215656 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001757 seconds.
-  path: Assets/Henry/door-rotate.fbx
-  artifactKey: Guid(72cea4a2f2099c6408711cf14220efe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/door-rotate.fbx using Guid(72cea4a2f2099c6408711cf14220efe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c5fe3fcb35f2a2bae4339bf34d6724b') in 0.0272993 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Henry/key.fbx
-  artifactKey: Guid(04213edc4303c1d48b9afab224ad6f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/key.fbx using Guid(04213edc4303c1d48b9afab224ad6f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07a6ea21c311e0a88d47071229e0c365') in 0.0188577 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.136228 seconds.
-  path: Assets/Henry
-  artifactKey: Guid(b9da7f37f06b742b4b63ced89271bd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry using Guid(b9da7f37f06b742b4b63ced89271bd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd29fab7ccbf3d59729130d27ccbe1b99') in 0.0004611 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.461707 seconds.
-  path: Assets/Henry/Prefabs
-  artifactKey: Guid(e0d2c5320a33a284eb46ea85b4679f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs using Guid(e0d2c5320a33a284eb46ea85b4679f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '920d123e33f102a5ca2ccdbd700a0995') in 0.0006471 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 145.349751 seconds.
-  path: Assets/Henry/Prefabs/LB_Default.prefab
-  artifactKey: Guid(cea59e8fa3ed0134db2b276866832ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_Default.prefab using Guid(cea59e8fa3ed0134db2b276866832ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2120efa53fdfa914b35fe887dd4fbf3c') in 0.0018763 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.865889 seconds.
-  path: Assets/Henry/Prefabs/LB_Default.prefab
-  artifactKey: Guid(cea59e8fa3ed0134db2b276866832ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_Default.prefab using Guid(cea59e8fa3ed0134db2b276866832ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfe0bf9e6818e6e239b488fbb3965914') in 0.014633 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.115969 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1b94237ae33a5759c701620153c1e2d') in 0.0022912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.277111 seconds.
-  path: Assets/Henry/Prefabs/LB_.prefab
-  artifactKey: Guid(1f392f3561860ca4aa0ddaa6eba23c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_.prefab using Guid(1f392f3561860ca4aa0ddaa6eba23c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4252c7be1678f1b02b95f8198478a3e') in 0.0021598 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.336836 seconds.
-  path: Assets/Henry/Prefabs/LB_ 1.prefab
-  artifactKey: Guid(69410602088e5634f9b3244d1edaabbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_ 1.prefab using Guid(69410602088e5634f9b3244d1edaabbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5904e47041fd489ccc9b826d0a504d3e') in 0.0020099 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.790804 seconds.
-  path: Assets/Henry/Prefabs/LB_ 2.prefab
-  artifactKey: Guid(77b0c53a50161f041b0d3f6088471816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_ 2.prefab using Guid(77b0c53a50161f041b0d3f6088471816) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be1c15b832b79f1eeb39cec890200839') in 0.0018462 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.035443 seconds.
-  path: Assets/Henry/Prefabs/LB_ 3.prefab
-  artifactKey: Guid(1e12c56972fe9bc4dae19dd9664117c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_ 3.prefab using Guid(1e12c56972fe9bc4dae19dd9664117c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9b91724a03058a3472ae2fa15e26e7e') in 0.0017183 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.990254 seconds.
-  path: Assets/Henry/Prefabs/LB_ Start.prefab
-  artifactKey: Guid(1e12c56972fe9bc4dae19dd9664117c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_ Start.prefab using Guid(1e12c56972fe9bc4dae19dd9664117c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdcaac005d403f21e4e981d1e0894edc') in 0.001649 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.525603 seconds.
-  path: Assets/Henry/Prefabs/LB_Key.prefab
-  artifactKey: Guid(77b0c53a50161f041b0d3f6088471816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_Key.prefab using Guid(77b0c53a50161f041b0d3f6088471816) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10edfb689166d49231642c2cd595adf1') in 0.0016933 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.693969 seconds.
-  path: Assets/Henry/Prefabs/LB_ Door.prefab
-  artifactKey: Guid(69410602088e5634f9b3244d1edaabbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_ Door.prefab using Guid(69410602088e5634f9b3244d1edaabbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1a354117021037b226042b79c1198fd') in 0.0016718 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.654546 seconds.
-  path: Assets/Henry/Prefabs/LB_Spike.prefab
-  artifactKey: Guid(1f392f3561860ca4aa0ddaa6eba23c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_Spike.prefab using Guid(1f392f3561860ca4aa0ddaa6eba23c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e931c6c6e324005436e793841496bff1') in 0.0018065 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.620320 seconds.
-  path: Assets/Henry/Prefabs/LB_Key.prefab
-  artifactKey: Guid(77b0c53a50161f041b0d3f6088471816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_Key.prefab using Guid(77b0c53a50161f041b0d3f6088471816) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c79b9f0bedf43e29aec583eb404bb1a9') in 0.0149974 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
-
-========================================================================
-Received Import Request.
-  Time since last request: 158.030256 seconds.
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+[OVRPlugin][INFO] UnityPluginLoad called
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 5.51 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
+Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8317 unused Assets / (8.3 MB). Loaded Objects now: 9095.
+Memory consumption went from 211.3 MB to 203.0 MB.
+Total: 12.254334 ms (FindLiveObjects: 0.783000 ms CreateObjectMapping: 0.367666 ms MarkObjects: 7.003125 ms  DeleteObjects: 4.099708 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 955611.093082 seconds.
   path: Assets/DefaultVolumeProfile.asset
   artifactKey: Guid(5fce87f07c9e6634da19b94eeab08003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DefaultVolumeProfile.asset using Guid(5fce87f07c9e6634da19b94eeab08003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a0bee029582a5bc1c529463b139df83') in 0.0009236 seconds
+Start importing Assets/DefaultVolumeProfile.asset using Guid(5fce87f07c9e6634da19b94eeab08003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9eb3dbf9957db163daea5029c1b160d') in 0.023554958 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.987871 seconds.
+  Time since last request: 75.062250 seconds.
+  path: Assets/Henry/Prefabs
+  artifactKey: Guid(e0d2c5320a33a284eb46ea85b4679f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Henry/Prefabs using Guid(e0d2c5320a33a284eb46ea85b4679f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '920d123e33f102a5ca2ccdbd700a0995') in 0.000490542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
   path: Assets/Henry/Prefabs/LB_ Door.prefab
   artifactKey: Guid(69410602088e5634f9b3244d1edaabbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_ Door.prefab using Guid(69410602088e5634f9b3244d1edaabbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98961650f9c87a5b4c4377d0e10636ea') in 0.0156066 seconds
+Start importing Assets/Henry/Prefabs/LB_ Door.prefab using Guid(69410602088e5634f9b3244d1edaabbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aef6ccb1e589a520825675283091aab4') in 0.282785375 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
 
 ========================================================================
 Received Import Request.
-  Time since last request: 110.329042 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a60473370045ebfcc65c6f24cf645dbd') in 0.0143995 seconds
+  Time since last request: 0.000079 seconds.
+  path: Assets/Henry/Prefabs/LB_Default.prefab
+  artifactKey: Guid(cea59e8fa3ed0134db2b276866832ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Henry/Prefabs/LB_Default.prefab using Guid(cea59e8fa3ed0134db2b276866832ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44e903b12964e965514862d694453e0b') in 0.006043708 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.843430 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af75b62ba4e754030d29e4517477c044') in 0.0142768 seconds
+  Time since last request: 0.000054 seconds.
+  path: Assets/Henry/Prefabs/LB_Key.prefab
+  artifactKey: Guid(77b0c53a50161f041b0d3f6088471816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Henry/Prefabs/LB_Key.prefab using Guid(77b0c53a50161f041b0d3f6088471816) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9275b132ad765bcb1b9657600007fd9') in 0.006439667 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.127363 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8afc9afaf994be35b72f385253597193') in 0.0067376 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+  Time since last request: 0.000061 seconds.
+  path: Assets/Henry/Prefabs/LB_Spike.prefab
+  artifactKey: Guid(1f392f3561860ca4aa0ddaa6eba23c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Henry/Prefabs/LB_Spike.prefab using Guid(1f392f3561860ca4aa0ddaa6eba23c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bfbc1edf72809468f8c6696e69bf334') in 0.008685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.979416 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f92495dc45c79eee3f5958f610e034b6') in 0.0153447 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+  Time since last request: 7.395543 seconds.
+  path: Assets/Henry/Models/block-grass.fbx
+  artifactKey: Guid(bb64b6c062dcf3f44be87bd4c35291b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Henry/Models/block-grass.fbx using Guid(bb64b6c062dcf3f44be87bd4c35291b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '441b6d13721e2d5af05e6d1d30d3203c') in 0.043299083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.769784 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84f71e2bbd748236d18275785385b646') in 0.0141137 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+  Time since last request: 0.000071 seconds.
+  path: Assets/Henry/Models/door-rotate.fbx
+  artifactKey: Guid(72cea4a2f2099c6408711cf14220efe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Henry/Models/door-rotate.fbx using Guid(72cea4a2f2099c6408711cf14220efe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df1a297f9d9f155632d4e28c6e13ef04') in 0.018288792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.587010 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4455ada11a706f69bba17bbf089843b0') in 0.0142785 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+  Time since last request: 0.000080 seconds.
+  path: Assets/Henry/Models/trap-spikes-large.fbx
+  artifactKey: Guid(be610a4f7e198754680ae20b624a84b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Henry/Models/trap-spikes-large.fbx using Guid(be610a4f7e198754680ae20b624a84b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b591ff2cccec6c24844b28d006f94552') in 0.018746666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.601566 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44f5c187545810f0295613e9677009de') in 0.0149897 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+  Time since last request: 3.319091 seconds.
+  path: Assets/Henry/Level/Kapaw_HandsDemoScene.unity
+  artifactKey: Guid(736cfab98cf0c14438385004ee60ecb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Henry/Level/Kapaw_HandsDemoScene.unity using Guid(736cfab98cf0c14438385004ee60ecb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ae377b5394eaa38f5ed0b101ee4f7eb') in 0.000423917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.571134 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ca206473828709284efec2c4d8829d0') in 0.0145971 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+  Time since last request: 7.591786 seconds.
+  path: Assets/Kapaw/Scene/Kapaw_HandsDemoScene.unity
+  artifactKey: Guid(c04c70c8422884d5d89d7a5c59c68da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kapaw/Scene/Kapaw_HandsDemoScene.unity using Guid(c04c70c8422884d5d89d7a5c59c68da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd43b5bec7e2aaa2ff1644a309bc73d8d') in 0.000394167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 6.26 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.60 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8206 unused Assets / (5.3 MB). Loaded Objects now: 9198.
+Memory consumption went from 169.3 MB to 164.0 MB.
+Total: 38.837250 ms (FindLiveObjects: 0.594375 ms CreateObjectMapping: 0.356708 ms MarkObjects: 34.620416 ms  DeleteObjects: 3.264250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 17.92 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8205 unused Assets / (8.8 MB). Loaded Objects now: 9198.
+Memory consumption went from 168.9 MB to 160.0 MB.
+Total: 43.927666 ms (FindLiveObjects: 0.609875 ms CreateObjectMapping: 0.325000 ms MarkObjects: 37.947875 ms  DeleteObjects: 5.043542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 4.78 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.52 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8206 unused Assets / (7.4 MB). Loaded Objects now: 9199.
+Memory consumption went from 168.4 MB to 161.0 MB.
+Total: 64.311333 ms (FindLiveObjects: 0.628375 ms CreateObjectMapping: 0.360916 ms MarkObjects: 59.068500 ms  DeleteObjects: 4.252750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 5.27 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8206 unused Assets / (8.7 MB). Loaded Objects now: 9199.
+Memory consumption went from 168.0 MB to 159.4 MB.
+Total: 41.578250 ms (FindLiveObjects: 0.587750 ms CreateObjectMapping: 0.338208 ms MarkObjects: 36.332333 ms  DeleteObjects: 4.319000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 179.382108 seconds.
+  path: Assets/Henry/Scripts/EnvironmentController.cs
+  artifactKey: Guid(b1c78cbeda14c6544bd91511fb465b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Henry/Scripts/EnvironmentController.cs using Guid(b1c78cbeda14c6544bd91511fb465b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d2da7dfb62bbb441ed59557ff74001a') in 0.001242208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.376308 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3366572fec67807ef88c3f8659d82a14') in 0.0156163 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+  Time since last request: 128.731376 seconds.
+  path: Assets/Kapaw/Scene/Kapaw_HandsDemoScene 1.unity
+  artifactKey: Guid(95c89e286cf7045a3b5cec15c72729e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kapaw/Scene/Kapaw_HandsDemoScene 1.unity using Guid(95c89e286cf7045a3b5cec15c72729e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe711b93cfbe9dcc5316c98bd5955a8d') in 0.0017095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 4.207479 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12118d5d7764411366c645f9bfc295d8') in 0.014541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 5.34 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8206 unused Assets / (6.9 MB). Loaded Objects now: 9199.
+Memory consumption went from 167.2 MB to 160.3 MB.
+Total: 43.387500 ms (FindLiveObjects: 0.579583 ms CreateObjectMapping: 0.326083 ms MarkObjects: 38.280000 ms  DeleteObjects: 4.201209 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 2.183494 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65636ad66a13094e166288ab6350e1c8') in 0.0148066 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x338587000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.095 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.66 ms, found 18 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 3.81 ms, found 18 plugins.
+[Synthetic Environments] got match open -n synth_env_server.app --args Bedroom
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
 
-========================================================================
-Received Import Request.
-  Time since last request: 1.166025 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afc4df71030d5c00433fbec45cc3d05b') in 0.0152528 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
 
-========================================================================
-Received Import Request.
-  Time since last request: 3.379961 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05221f36746f06a124863dee23cf347a') in 0.0150311 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+[Synthetic Environments] got match open -n synth_env_server.app --args GameRoom
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
 
-========================================================================
-Received Import Request.
-  Time since last request: 3.768015 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aebcb2a5eada6e9a0ba4135a241021d') in 0.0157604 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
 
-========================================================================
-Received Import Request.
-  Time since last request: 2.779064 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3c87292dc899602a7d7517f133c4667') in 0.0146345 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+[Synthetic Environments] got match open -n synth_env_server.app --args LivingRoom
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
 
-========================================================================
-Received Import Request.
-  Time since last request: 2.583419 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '303d48988c981aef9275a4f80b0a554d') in 0.0151915 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
 
-========================================================================
-Received Import Request.
-  Time since last request: 2.379646 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15ab9f5cd32c8914c636120c293c6665') in 0.0150145 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom2_3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
 
-========================================================================
-Received Import Request.
-  Time since last request: 3.387390 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df2a13492f5fbbdeb4b7b74a1bdb9bdb') in 0.0208344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
 
-========================================================================
-Received Import Request.
-  Time since last request: 2.167416 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebaca59b1365bd30dee6675fd7bc9b2e') in 0.0158762 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom2_4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
 
-========================================================================
-Received Import Request.
-  Time since last request: 3.583825 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec6fd5c29091b16f75f756fb97ee8a21') in 0.015327 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
 
-========================================================================
-Received Import Request.
-  Time since last request: 5.796324 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7edec7be32b79537b6adeaedc4a4276') in 0.0141531 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom5_6
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
 
-========================================================================
-Received Import Request.
-  Time since last request: 13.031852 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a575cfea9026b0d72410ce63ce365a33') in 0.0150737 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
 
-========================================================================
-Received Import Request.
-  Time since last request: 19.217603 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c47f0316cdcc39dcfd614451fc0ffe5') in 0.0069596 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom5_1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
 
-========================================================================
-Received Import Request.
-  Time since last request: 49.930198 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3572759150f428415f28224daf2bb70') in 0.0153804 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
 
-========================================================================
-Received Import Request.
-  Time since last request: 6799.362437 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat
-  artifactKey: Guid(bbb56ac3cf3c61a46ab3887c0fdbda8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat using Guid(bbb56ac3cf3c61a46ab3887c0fdbda8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0798d9e8dfd6b60e9558c6d5f8939015') in 0.3155105 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom3_1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Materials/Concrete Light Blue.mat
-  artifactKey: Guid(830d28b607e09a2479e2005c2eb5c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Materials/Concrete Light Blue.mat using Guid(830d28b607e09a2479e2005c2eb5c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1955d90aff021cb8fe86b96bdb54357') in 0.0204881 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Materials/Lit White.mat
-  artifactKey: Guid(fc226930e8fad4c499969204cecfbc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Materials/Lit White.mat using Guid(fc226930e8fad4c499969204cecfbc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fd3e512c07c864ab4a2f8f9a6de9db9') in 0.2362968 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom1_2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
 
-========================================================================
-Received Import Request.
-  Time since last request: 50.663540 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aabe9ec11dc009dac0e0ab3107b94938') in 0.0182253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
 
-========================================================================
-Received Import Request.
-  Time since last request: 40361.783406 seconds.
-  path: Assets/Henry/Prefabs/LB_End.prefab
-  artifactKey: Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Prefabs/LB_End.prefab using Guid(027a1f2a3cb0e2c40841f2cb0311c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cd21752155c3bf2ded8f36544fb1ad7') in 0.0810697 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom1_1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
 
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom1_4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs:34 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.896 seconds
+Domain Reload Profiling: 1995ms
+	BeginReloadAssembly (382ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (56ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (151ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (656ms)
+		LoadAssemblies (466ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (48ms)
+			BuildScriptInfoCaches (175ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (897ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (705ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (491ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 3.66 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.48 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8317 unused Assets / (7.9 MB). Loaded Objects now: 9181.
+Memory consumption went from 231.8 MB to 223.9 MB.
+Total: 11.271042 ms (FindLiveObjects: 0.403208 ms CreateObjectMapping: 0.220583 ms MarkObjects: 6.297667 ms  DeleteObjects: 4.348958 ms)
+
+Prepare: number of updated asset objects reloaded= 0

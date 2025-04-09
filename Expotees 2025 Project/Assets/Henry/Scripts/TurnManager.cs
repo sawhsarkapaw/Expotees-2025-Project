@@ -47,7 +47,8 @@ public class TurnManager : MonoBehaviour
                     break;
 
                 case TurnState.EnvironmentTurn:
-                    yield return environmentController.ActivateHazards();
+                    //I comment this out as it is showing an error - Kapaw
+                    //yield return environmentController.ActivateHazards();
                     currentState = TurnState.EndCheck;
                     break;
 
