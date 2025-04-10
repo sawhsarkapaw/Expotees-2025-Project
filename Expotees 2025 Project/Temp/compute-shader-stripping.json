@@ -1,0 +1,46 @@
+{
+    "totalVariantsIn": 2,
+    "totalVariantsOut": 2,
+    "shaders": [
+        {
+            "inputVariants": 1,
+            "outputVariants": 1,
+            "name": "ProbeVolumeSamplingDebugPositionNormal",
+            "pipelines": [
+                {
+                    "inputVariants": 1,
+                    "outputVariants": 1,
+                    "pipeline": "",
+                    "variants": [
+                        {
+                            "inputVariants": 1,
+                            "outputVariants": 1,
+                            "variantName": "Kernel: ComputePositionNormal",
+                            "stripTimeMs": 0.0027
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "inputVariants": 1,
+            "outputVariants": 1,
+            "name": "CopyDepthTexture",
+            "pipelines": [
+                {
+                    "inputVariants": 1,
+                    "outputVariants": 1,
+                    "pipeline": "",
+                    "variants": [
+                        {
+                            "inputVariants": 1,
+                            "outputVariants": 1,
+                            "variantName": "Kernel: CopyDepth",
+                            "stripTimeMs": 0.0001
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

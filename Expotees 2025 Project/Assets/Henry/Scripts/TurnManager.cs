@@ -5,6 +5,7 @@ using TMPro;
 public class TurnManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI DebugText;
+    [SerializeField] GameObject[] ProgrammingSockets; //To store the sockets
     private enum TurnState
     {
         PlayerTurn,
@@ -34,8 +35,9 @@ public class TurnManager : MonoBehaviour
     public void Start()
     {
         DebugText.text = "Turn Manager Initialized";
-        currentState = TurnState.PlayerTurn;
-        StartCoroutine(TurnLoop());
+        
+        //currentState = TurnState.PlayerTurn;
+        //StartCoroutine(TurnLoop());
     }
 
     private IEnumerator TurnLoop()

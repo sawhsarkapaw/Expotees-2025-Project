@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64352
+56216
 -job-worker-count
 4
 -background-job-worker-count
@@ -68,9 +68,9 @@ Successfully changed project path to: /Users/kapaw/Desktop/Expotees-2025-Project
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8610515008]  Target information:
 
-Player connection [8610515008]  * "[IP] 172.16.6.34 [Port] 0 [Flags] 2 [Guid] 1973987491 [EditorId] 1973987491 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8610515008]  * "[IP] 172.16.6.34 [Port] 0 [Flags] 2 [Guid] 2760903960 [EditorId] 2760903960 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8610515008]  * "[IP] 169.254.96.35 [Port] 0 [Flags] 2 [Guid] 1973987491 [EditorId] 1973987491 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8610515008]  * "[IP] 169.254.55.198 [Port] 0 [Flags] 2 [Guid] 2760903960 [EditorId] 2760903960 [Version] 1048832 [Id] OSXEditor(0,Kapaws-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8610515008] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8610515008] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -84,8 +84,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 34.34 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 7.36 ms.
+Refreshing native plugins compatible for Editor in 18.36 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 2.83 ms.
 Initialize engine version: 6000.0.33f1 (433b0a79340b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Assets
@@ -101,51 +101,54 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56815
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56470
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.004099 seconds.
-- Loaded All Assemblies, in  0.377 seconds
+Registered in 0.004283 seconds.
+- Loaded All Assemblies, in  0.296 seconds
 Native extension for Android target not found
 Unable to list connected devices. 
 * daemon not running; starting now at tcp:5037
 ADB server didn't ACK
 Full server startup log: /var/folders/vd/h56pv79j7xgf_8sxhczbrv100000gn/T//adb.501.log
-Server had pid: 35837
---- adb starting (pid 35837) ---
-04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Version 34.0.5-10900879
-04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 
-04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Version 34.0.5-10900879
-04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 
-04-09 09:12:44.314 35838 30345816 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
-04-09 09:12:44.314 35838 30345816 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-09 09:12:44.314 35838 30345816 I adb     : usb_libusb.cpp:804 device connected: 1-1
-04-09 09:12:44.314 35837 30345820 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
-04-09 09:12:44.314 35837 30345820 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-09 09:12:44.314 35837 30345820 I adb     : usb_libusb.cpp:804 device connected: 1-1
-04-09 09:12:44.314 35838 30345810 I adb     : auth.cpp:416 adb_auth_init...
-04-09 09:12:44.316 35837 30345820 E adb     : usb_libusb.cpp:536 failed to claim adb interface for device '2G0YC1ZF7Z0VTN': LIBUSB_ERROR_ACCESS
-04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:819 constructed LibusbConnection for device 2G0YC1ZF7Z0VTN (1-1)
-04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:804 device connected: 0-1
-04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:733 ignoring device usb:0-1: not an adb interface. (FindInterface)
-04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:804 device connected: 2-1
-04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:733 ignoring device usb:2-1: not an adb interface. (FindInterface)
-04-09 09:12:44.317 35838 30345810 I adb     : auth.cpp:152 loaded new key from '/Users/kapaw/.android/adbkey' with fingerprint 5AD1CDF18774BA58980B06A343ECC18E140F753118DDCDBFF21E5C961500DDD8
-04-09 09:12:44.318 35838 30345810 I adb     : usb_libusb.cpp:651 registered new usb device '2G0YC1ZF7Z0VTN'
-04-09 09:12:44.319 35838 30345810 I adb     : transport.cpp:1734 fetching keys for transport 2G0YC1ZF7Z0VTN
-04-09 09:12:44.319 35838 30345810 I adb     : auth.cpp:468 Calling send_auth_response
-04-09 09:12:44.321 35838 30345810 I adb     : adb.cpp:180 2G0YC1ZF7Z0VTN: offline
+Server had pid: 47474
+--- adb starting (pid 47474) ---
+04-10 09:37:58.018 47475 31158935 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+04-10 09:37:58.018 47475 31158935 I adb     : main.cpp:63 Version 34.0.5-10900879
+04-10 09:37:58.018 47475 31158935 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+04-10 09:37:58.018 47475 31158935 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
+04-10 09:37:58.018 47475 31158935 I adb     : main.cpp:63 
+04-10 09:37:58.018 47474 31158934 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+04-10 09:37:58.018 47474 31158934 I adb     : main.cpp:63 Version 34.0.5-10900879
+04-10 09:37:58.018 47474 31158934 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+04-10 09:37:58.018 47474 31158934 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
+04-10 09:37:58.018 47474 31158934 I adb     : main.cpp:63 
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:804 device connected: 2-1
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:733 ignoring device usb:2-1: not an adb interface. (FindInterface)
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:804 device connected: 1-1
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:733 ignoring device usb:1-1: not an adb interface. (FindInterface)
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:804 device connected: 0-1
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:733 ignoring device usb:0-1: not an adb interface. (FindInterface)
+04-10 09:37:58.025 47475 31158935 I adb     : auth.cpp:416 adb_auth_init...
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:804 device connected: 2-1
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:733 ignoring device usb:2-1: not an adb interface. (FindInterface)
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:804 device connected: 1-1
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:733 ignoring device usb:1-1: not an adb interface. (FindInterface)
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:804 device connected: 0-1
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:733 ignoring device usb:0-1: not an adb interface. (FindInterface)
+04-10 09:37:58.027 47475 31158935 I adb     : auth.cpp:152 loaded new key from '/Users/kapaw/.android/adbkey' with fingerprint 5AD1CDF18774BA58980B06A343ECC18E140F753118DDCDBFF21E5C961500DDD8
+04-10 09:37:58.548 47474 31158934 F adb     : main.cpp:165 could not install *smartsocket* listener: Address already in use
 
 * failed to start daemon
 adb: failed to check server version: cannot connect to daemon
@@ -175,38 +178,41 @@ stderr[
 * daemon not running; starting now at tcp:5037
 ADB server didn't ACK
 Full server startup log: /var/folders/vd/h56pv79j7xgf_8sxhczbrv100000gn/T//adb.501.log
-Server had pid: 35837
---- adb starting (pid 35837) ---
-04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Version 34.0.5-10900879
-04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-04-09 09:12:44.307 35837 30345809 I adb     : main.cpp:63 
-04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
-04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Version 34.0.5-10900879
-04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
-04-09 09:12:44.307 35838 30345810 I adb     : main.cpp:63 
-04-09 09:12:44.314 35838 30345816 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
-04-09 09:12:44.314 35838 30345816 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-09 09:12:44.314 35838 30345816 I adb     : usb_libusb.cpp:804 device connected: 1-1
-04-09 09:12:44.314 35837 30345820 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
-04-09 09:12:44.314 35837 30345820 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-09 09:12:44.314 35837 30345820 I adb     : usb_libusb.cpp:804 device connected: 1-1
-04-09 09:12:44.314 35838 30345810 I adb     : auth.cpp:416 adb_auth_init...
-04-09 09:12:44.316 35837 30345820 E adb     : usb_libusb.cpp:536 failed to claim adb interface for device '2G0YC1ZF7Z0VTN': LIBUSB_ERROR_ACCESS
-04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:819 constructed LibusbConnection for device 2G0YC1ZF7Z0VTN (1-1)
-04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:804 device connected: 0-1
-04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:733 ignoring device usb:0-1: not an adb interface. (FindInterface)
-04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
-04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:804 device connected: 2-1
-04-09 09:12:44.317 35838 30345816 I adb     : usb_libusb.cpp:733 ignoring device usb:2-1: not an adb interface. (FindInterface)
-04-09 09:12:44.317 35838 30345810 I adb     : auth.cpp:152 loaded new key from '/Users/kapaw/.android/adbkey' with fingerprint 5AD1CDF18774BA58980B06A343ECC18E140F753118DDCDBFF21E5C961500DDD8
-04-09 09:12:44.318 35838 30345810 I adb     : usb_libusb.cpp:651 registered new usb device '2G0YC1ZF7Z0VTN'
-04-09 09:12:44.319 35838 30345810 I adb     : transport.cpp:1734 fetching keys for transport 2G0YC1ZF7Z0VTN
-04-09 09:12:44.319 35838 30345810 I adb     : auth.cpp:468 Calling send_auth_response
-04-09 09:12:44.321 35838 30345810 I adb     : adb.cpp:180 2G0YC1ZF7Z0VTN: offline
+Server had pid: 47474
+--- adb starting (pid 47474) ---
+04-10 09:37:58.018 47475 31158935 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+04-10 09:37:58.018 47475 31158935 I adb     : main.cpp:63 Version 34.0.5-10900879
+04-10 09:37:58.018 47475 31158935 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+04-10 09:37:58.018 47475 31158935 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
+04-10 09:37:58.018 47475 31158935 I adb     : main.cpp:63 
+04-10 09:37:58.018 47474 31158934 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+04-10 09:37:58.018 47474 31158934 I adb     : main.cpp:63 Version 34.0.5-10900879
+04-10 09:37:58.018 47474 31158934 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+04-10 09:37:58.018 47474 31158934 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
+04-10 09:37:58.018 47474 31158934 I adb     : main.cpp:63 
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:804 device connected: 2-1
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:733 ignoring device usb:2-1: not an adb interface. (FindInterface)
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:804 device connected: 1-1
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:733 ignoring device usb:1-1: not an adb interface. (FindInterface)
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:804 device connected: 0-1
+04-10 09:37:58.025 47475 31158941 I adb     : usb_libusb.cpp:733 ignoring device usb:0-1: not an adb interface. (FindInterface)
+04-10 09:37:58.025 47475 31158935 I adb     : auth.cpp:416 adb_auth_init...
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:804 device connected: 2-1
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:733 ignoring device usb:2-1: not an adb interface. (FindInterface)
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:804 device connected: 1-1
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:733 ignoring device usb:1-1: not an adb interface. (FindInterface)
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:804 device connected: 0-1
+04-10 09:37:58.025 47474 31158945 I adb     : usb_libusb.cpp:733 ignoring device usb:0-1: not an adb interface. (FindInterface)
+04-10 09:37:58.027 47475 31158935 I adb     : auth.cpp:152 loaded new key from '/Users/kapaw/.android/adbkey' with fingerprint 5AD1CDF18774BA58980B06A343ECC18E140F753118DDCDBFF21E5C961500DDD8
+04-10 09:37:58.548 47474 31158934 F adb     : main.cpp:165 could not install *smartsocket* listener: Address already in use
 
 * failed to start daemon
 adb: failed to check server version: cannot connect to daemon
@@ -235,39 +241,39 @@ UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules () (at /Users
 
 (Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs Line: 126)
 
-Android Extension - Scanning For ADB Devices 419 ms
+Android Extension - Scanning For ADB Devices 728 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.690 seconds
-Domain Reload Profiling: 1067ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  0.994 seconds
+Domain Reload Profiling: 1290ms
+	BeginReloadAssembly (97ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (156ms)
-		LoadAssemblies (141ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (97ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (137ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (109ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (691ms)
+	FinalizeReload (994ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (647ms)
+		SetupLoadedEditorAssemblies (953ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (483ms)
+			InitializePlatformSupportModulesInManaged (793ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (81ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -277,7 +283,7 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.780 seconds
+- Loaded All Assemblies, in  0.710 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -285,7 +291,7 @@ AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 5.23 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 6.25 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -296,8 +302,9 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 3.71 ms, found 18 plugins.
-09/04 09:12:47.325 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+Refreshing native plugins compatible for Editor in 3.90 ms, found 18 plugins.
+10/04 09:38:01.032 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+10/04 09:38:01.032 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
 [Synthetic Environments] got match open -n synth_env_server.app --args Bedroom
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -519,35 +526,35 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.899 seconds
-Domain Reload Profiling: 2671ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  1.405 seconds
+Domain Reload Profiling: 2107ms
+	BeginReloadAssembly (87ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (614ms)
-		LoadAssemblies (325ms)
+	LoadAllAssembliesAndSetupDomain (553ms)
+		LoadAssemblies (302ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (328ms)
-			TypeCache.Refresh (246ms)
-				TypeCache.ScanAssembly (221ms)
+		AnalyzeDomain (288ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (185ms)
 			BuildScriptInfoCaches (59ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (1899ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1405ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1777ms)
+		SetupLoadedEditorAssemblies (1288ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (1488ms)
-			ProcessInitializeOnLoadMethodAttributes (180ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (1035ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -556,28 +563,92 @@ Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 [OVRPlugin][INFO] UnityPluginLoad called
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 4.36 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.46 ms.
-Unloading 306 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8319 unused Assets / (8.5 MB). Loaded Objects now: 9097.
-Memory consumption went from 211.8 MB to 203.3 MB.
-Total: 12.602292 ms (FindLiveObjects: 1.336042 ms CreateObjectMapping: 0.525458 ms MarkObjects: 7.347667 ms  DeleteObjects: 3.392125 ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 5.81 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
+Unloading 307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8319 unused Assets / (7.6 MB). Loaded Objects now: 9099.
+Memory consumption went from 212.5 MB to 204.9 MB.
+Total: 12.236750 ms (FindLiveObjects: 0.491375 ms CreateObjectMapping: 0.316541 ms MarkObjects: 7.276667 ms  DeleteObjects: 4.150917 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1094542.740503 seconds.
-  path: Assets/Henry/Scripts/CharacterMover.cs
-  artifactKey: Guid(0073a60a2f72cb6458d3d0a96794806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Henry/Scripts/CharacterMover.cs using Guid(0073a60a2f72cb6458d3d0a96794806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d03ed82f24613b2f8559fffadb7dbdb') in 0.007164667 seconds
+  Time since last request: 1134650.027080 seconds.
+  path: Assets/Kapaw/Scene/Kapaw_HandsDemoScene 1.unity
+  artifactKey: Guid(95c89e286cf7045a3b5cec15c72729e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kapaw/Scene/Kapaw_HandsDemoScene 1.unity using Guid(95c89e286cf7045a3b5cec15c72729e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02424b98811b931a5c8bc6572aba9d45') in 0.004981458 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 772.732110 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/DemoSceneAssets/Models/PushButton.fbx
+  artifactKey: Guid(7ab6f3b0fd1a6ba41b2a47766c16613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/DemoSceneAssets/Models/PushButton.fbx using Guid(7ab6f3b0fd1a6ba41b2a47766c16613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2299ff9bceb0947aa464f5401d4a3184') in 0.487236083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/MRTemplateAssets/Models/UI/SpatialPanelManipulatorModel.fbx
+  artifactKey: Guid(c6984c48aed9a154294088f4265d8478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTemplateAssets/Models/UI/SpatialPanelManipulatorModel.fbx using Guid(c6984c48aed9a154294088f4265d8478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a41d58adcae36c3b286733a76d20a1bd') in 0.26479575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/Characters/FBX format/aid-glasses.fbx
+  artifactKey: Guid(3dc8ed18c07ec4153bf06be2e99f4b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/FBX format/aid-glasses.fbx using Guid(3dc8ed18c07ec4153bf06be2e99f4b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61ca843966d12642964ff59766f70e83') in 0.016095833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Shaders/Subgraphs/AllFingerHighlights.shadersubgraph
+  artifactKey: Guid(31b878b1ba6f0f548bacb4ee6ae992e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Shaders/Subgraphs/AllFingerHighlights.shadersubgraph using Guid(31b878b1ba6f0f548bacb4ee6ae992e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5035657c7fe3c778ed118d35e4b9d06f') in 0.002687709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Assets/Characters/FBX format/aid-mask.fbx
+  artifactKey: Guid(8642e34be53d14bea8f973e9b85c2d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/FBX format/aid-mask.fbx using Guid(8642e34be53d14bea8f973e9b85c2d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9db0701be8cd7af0cdca7151eaf0af86') in 0.012871666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.073852 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Filters/AnyGazedAtTeleportAnchorFilter.asset
+  artifactKey: Guid(0f906c94e2aa0c3488832acc1db04295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Filters/AnyGazedAtTeleportAnchorFilter.asset using Guid(0f906c94e2aa0c3488832acc1db04295) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88df931c02dc515507350b3df44e032b') in 0.001539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/AR Starter Assets/Prefabs/AR Feathered Plane.prefab
+  artifactKey: Guid(a6b7ca1d53c75490595d1f0d5f43be38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/AR Starter Assets/Prefabs/AR Feathered Plane.prefab using Guid(a6b7ca1d53c75490595d1f0d5f43be38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7d9ba697a9a8081f91a1463dd400f59') in 0.004003333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013133 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/AR Starter Assets/ARDemoSceneAssets/Prefabs/Arch.prefab
+  artifactKey: Guid(13241d599ff10413498d04c6d683ca10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/AR Starter Assets/ARDemoSceneAssets/Prefabs/Arch.prefab using Guid(13241d599ff10413498d04c6d683ca10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dc5f3799bb0894367db781abd2594f3') in 0.389070666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x347987000 may have been prematurely finalized
+Thread 0x17feab000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.819 seconds
+- Loaded All Assemblies, in  0.959 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -585,7 +656,7 @@ AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.97 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 6.78 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -595,7 +666,7 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 3.93 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 4.68 ms, found 18 plugins.
 [Synthetic Environments] got match open -n synth_env_server.app --args Bedroom
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -814,331 +885,332 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.976 seconds
-Domain Reload Profiling: 1799ms
-	BeginReloadAssembly (221ms)
+- Finished resetting the current domain, in  0.972 seconds
+Domain Reload Profiling: 1934ms
+	BeginReloadAssembly (273ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (31ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (99ms)
-	RebuildCommonClasses (34ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (532ms)
-		LoadAssemblies (328ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (626ms)
+		LoadAssemblies (452ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (262ms)
-			TypeCache.Refresh (27ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (212ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (977ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (198ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (972ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (763ms)
+		SetupLoadedEditorAssemblies (782ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (516ms)
-			ProcessInitializeOnLoadMethodAttributes (124ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (556ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.55 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8318 unused Assets / (8.3 MB). Loaded Objects now: 9183.
+Memory consumption went from 235.3 MB to 227.0 MB.
+Total: 12.380625 ms (FindLiveObjects: 0.468500 ms CreateObjectMapping: 0.350292 ms MarkObjects: 8.383292 ms  DeleteObjects: 3.178208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17fe9f000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.857 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 5.77 ms, found 18 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 4.40 ms, found 18 plugins.
+[Synthetic Environments] got match open -n synth_env_server.app --args Bedroom
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server.app --args GameRoom
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server.app --args LivingRoom
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom2_3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom2_4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom5_6
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom5_1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom3_1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom1_2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom1_1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom1_4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
+Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs:34 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.960 seconds
+Domain Reload Profiling: 1819ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (121ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (524ms)
+		LoadAssemblies (370ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (194ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (960ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (778ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (538ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 3.81 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.54 ms.
-Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8317 unused Assets / (7.6 MB). Loaded Objects now: 9114.
-Memory consumption went from 226.5 MB to 218.9 MB.
-Total: 10.733042 ms (FindLiveObjects: 0.431500 ms CreateObjectMapping: 0.246833 ms MarkObjects: 6.950333 ms  DeleteObjects: 3.103792 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x31d6d3000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.787 seconds
-Script 'CharacterController' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.91 ms, found 18 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 4.11 ms, found 18 plugins.
-[Synthetic Environments] got match open -n synth_env_server.app --args Bedroom
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match open -n synth_env_server.app --args GameRoom
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match open -n synth_env_server.app --args LivingRoom
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom2_3
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom2_4
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom5_6
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom5_1
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom3_1
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom1_2
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom1_1
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match open -n synth_env_server_extra_rooms.app --args XRoom1_4
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs Line: 165)
-
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:46 
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in ./Library/PackageCache/com.unity.xr.core-utils/Editor/ProjectValidation/PackageVersionUtility.cs:67 
-  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in /Users/kapaw/Desktop/Expotees-2025-Project/Expotees 2025 Project/Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs:34 
-   --- End of inner exception stack trace ---
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3aacbe608a2f468eb6bb1c15e219490d>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:146)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 146)
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.955 seconds
-Domain Reload Profiling: 1745ms
-	BeginReloadAssembly (189ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (92ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (533ms)
-		LoadAssemblies (314ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (260ms)
-			TypeCache.Refresh (24ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (212ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (955ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (756ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (521ms)
-			ProcessInitializeOnLoadMethodAttributes (127ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 3.76 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.51 ms.
+Refreshing native plugins compatible for Editor in 4.52 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
 Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8317 unused Assets / (8.4 MB). Loaded Objects now: 9117.
-Memory consumption went from 224.7 MB to 216.3 MB.
-Total: 10.415500 ms (FindLiveObjects: 0.504917 ms CreateObjectMapping: 0.230542 ms MarkObjects: 6.483583 ms  DeleteObjects: 3.195917 ms)
+Unloading 8317 unused Assets / (8.2 MB). Loaded Objects now: 9186.
+Memory consumption went from 229.4 MB to 221.2 MB.
+Total: 12.272792 ms (FindLiveObjects: 0.554042 ms CreateObjectMapping: 0.297708 ms MarkObjects: 7.741834 ms  DeleteObjects: 3.678375 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
