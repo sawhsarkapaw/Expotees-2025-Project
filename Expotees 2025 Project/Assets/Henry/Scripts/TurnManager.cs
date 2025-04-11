@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class TurnManager : MonoBehaviour
 {
@@ -19,6 +20,10 @@ public class TurnManager : MonoBehaviour
     public CharacterMover characterMover;  // Reference to your character movement script
     public EnvironmentController environmentController; // Handles pistons, spikes, etc.
 
+    // Define events - Kapaw
+    public static event Action OnEnvironmentAction;
+    public static event Action<string> OnCharacterAction;
+
     private void Awake()
     {
         if (Instance == null)
@@ -33,11 +38,14 @@ public class TurnManager : MonoBehaviour
     }
 
     public void Start()
-    {
-        DebugText.text = "Turn Manager Initialized";
-        
+    {   
         //currentState = TurnState.PlayerTurn;
         //StartCoroutine(TurnLoop());
+    }
+
+    public void ButtonPressed()
+    {
+        processTurn();
     }
 
     private IEnumerator TurnLoop()
@@ -68,5 +76,12 @@ public class TurnManager : MonoBehaviour
             }
             yield return new WaitForSeconds(0.5f); // Small delay for better pacing
         }
+    }
+
+    void processTurn()
+    {
+        DebugText.text = "Processing Turn...";
+        OnCharacterAction?.Invoke("MoveForward");
+        OnEnvironmentAction?.Invoke();
     }
 }
